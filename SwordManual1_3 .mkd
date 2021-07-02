@@ -1,5 +1,5 @@
 #Manual de Sword#
-##Solaria Sistems y Lakpad Technologies##
+##By: Isaaker##
 ![image0001](image0001.png)
 
 Actualizado el 3/5/21
@@ -38,7 +38,7 @@ Consigo experiencia de programacion y desarrollo
  3. Sword 1.2
  4. Sword 1.3
 ##8.Soporte Tecnico---------------------------------------------------------------##
-Este programa no deberia de necesitar soporte tecnico, pero en el caso de necesitar que sea arreglado lo mas apropiado seria reinstalar el programa(borrar el programa y volverlo a descargar)
+Este programa no deberia de necesitar soporte tecnico, pero en el caso de necesitar que sea arreglado lo mas apropiado seria reinstalar el programa(borrar el programa y volverlo a descargar), para mas ayuda escribe a: hernan.marti.isaac@gmail.com
 ##9.Contacto----------------------------------------------------------------------##
 Para contacctar con el desarrollador puedes buscarme en GitHub: Isaaker
 O escribr un correo a hernan.marti.isaac@gmail.com
