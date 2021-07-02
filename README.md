@@ -19,5 +19,4 @@ Also in development is Sword Graphics or Sword Messages (a bot), Thank you very 
 For further information contact my in this e-mail: hernan.marti.isaac@gmail.com
 This code is written in Phyton language
 
-LICENSE
 ![Imagen 2-7-21 a las 11 33](https://user-images.githubusercontent.com/77550577/124254773-b0b92d80-db29-11eb-9a58-c2b790fbea85.jpeg)
