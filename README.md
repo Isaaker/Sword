@@ -1,5 +1,5 @@
-#Sword 1.3#
-##Solaria Sistems and Lakpad Technologies##
+Sword 1.3
+Solaria Sistems and Lakpad Technologies
 
 Author:Isaaker
 
