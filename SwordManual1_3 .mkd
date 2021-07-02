@@ -52,4 +52,4 @@ O escribr un correo a hernan.marti.isaac@gmail.com
 Author:Isaaker
 Programado en: Thonny Phyton IDE con una Rapsberry Pi 400
 
-**©Solaria Sistems y Lakpad Technologies**
+**©piscinadeentropia.es**
