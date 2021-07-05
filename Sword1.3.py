@@ -41,7 +41,7 @@ while True:
     if nombre == ("Sword"):
         print ("¡¡¡Oye pues yo tambien me llamo asi!!!")
     else:
-        print ("Bienvenid@b:")
+        print ("Bienvenid@a:")
         print (nombre)
         #Definicion de los caracteres
         caracteres4 = ("asdfghjklñqwertyuiopzxcvbnm")
