@@ -1,7 +1,8 @@
-while True:
+#import
+import random 
+import time
 #Bucle
-    import random 
-    import time
+while True:
 #Nombre
     print ("SWORD 1.3")
     print ("                                                      ")
@@ -29,7 +30,7 @@ while True:
                 print ("This is the information to you we need")
                 print ("©Piscinadeentropia.es 2021/Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
                 print ("This program inclued this modules: Random , time ,datetime and timeit")
-                print ("And this ERROR codes:104= La informacion introducida no es correcta o no es la esperada And this:109 Se ha acabado el Bucle de forma inesperada")
+                print ("And this ERROR codes:104= La informacion introducida no es correcta o no es la esperada And this:109 Se ha acabado el Bucle de forma inesperada, Para acceder al codigo fuente dirigete a: https://github.com/Isaaker/Sword")
                 print ("Use Ctrl+tecla c for exit")
                 print ("-------")
                 time.sleep (5)
@@ -40,7 +41,7 @@ while True:
     if nombre == ("Sword"):
         print ("¡¡¡Oye pues yo tambien me llamo asi!!!")
     else:
-        print ("Bienvenid@b:")
+        print ("Bienvenid@a:")
         print (nombre)
         #Definicion de los caracteres
         caracteres4 = ("asdfghjklñqwertyuiopzxcvbnm")
