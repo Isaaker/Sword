@@ -5,16 +5,15 @@ while True:
 #Nombre
     print ("SWORD 1.3")
     print ("                                                      ")
-    print ("Bienevenido a Sword 1.3")
     nombre = input ("Su nombre, por favor.No escriba ningun espacio delante.Se usa puramente para personalizacion:")
     if nombre == ("Administrator"):
         print ("Hello,Administrator")
         id = input ("I need your ID")
-        while id == ("Solaria Sistems"):
+        while id == ("Piscina de Entropia"):
             contraseña1 = input ("I need your password")
             while contraseña1 == ("M/W7Z6#cU_1Q"):
                 print ("This is the information to you we need")
-                print ("©SOLARIA SISTEMYS 2021 Y ©LAKPAD TECHNOLOGIES 2021/Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
+                print ("©piscinadeentropia.es 2021/Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
                 print ("This program inclued this modules: Random and time")
                 print ("And this ERROR codes:104= La informacion introducida no es correcta o no es la esperada And this:109 Se ha acabado el Bucle de forma inesperada")
                 print ("Use Ctrl+tecla c for exit")
@@ -24,11 +23,11 @@ while True:
                 time.sleep (4)
             else:
                 print ("This is  not correct")
-        while id == ("Lakpad Technologies"):
+        while id == ("Developer"):
             contraseña2 = input ("I need your password")
             while contraseña2 == ("m%YM%mBep7:f"):
                 print ("This is the information to you we need")
-                print ("©DARK SISTEMYS 2021 Y ©LAKPAD TECHNOLOGIES 2021/Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
+                print ("©Piscinadeentropia.es 2021/Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
                 print ("This program inclued this modules: Random , time ,datetime and timeit")
                 print ("And this ERROR codes:104= La informacion introducida no es correcta o no es la esperada And this:109 Se ha acabado el Bucle de forma inesperada")
                 print ("Use Ctrl+tecla c for exit")
@@ -96,7 +95,8 @@ while True:
             print ("Para informar de un ERROR debera contactar con DARK SISTEMYS O LAKPAD TECCHNOLOGIES.Puede hacerlo en el siguiente correo electronico:hernan.marti.isaac@gmail.com o en la cuenta  de GitHub:Isaaker.Gracias de antemano por tu colaboracion")
         #Creditos    
         if userName == "c":
-            print ("©SOLARIA SISTEMS 2021 Y ©LAKPAD TECHNOLOGIES 2021/Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
+            print ("©Piscinadeentropia.es 2021/Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
+            print ("Para ver la licencia del programa dirigete a: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt")
             time.sleep(10)
         #Creador de Contraseñas
                 #Preferencias de la contraseña
