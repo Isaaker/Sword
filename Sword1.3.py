@@ -1,7 +1,8 @@
-while True:
+#import
+import random 
+import time
 #Bucle
-    import random 
-    import time
+while True:
 #Nombre
     print ("SWORD 1.3")
     print ("                                                      ")
