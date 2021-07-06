@@ -1,53 +1,25 @@
+print ("SWORD 1.3")
 #import
 import random 
 import time
-#Bucle
+#characters
+characters4 = ("asdfghjklñqwertyuiopzxcvbnm")
+characters3 = ("QWERTYUIOPASDFGHJKLÑZXCVBNM")
+characters2 = ("1234567890")
+characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
+#Language
+Language = input ("Choose a language / Elije un Idioma")
+
+#Español
 while True:
-#Nombre
-    print ("SWORD 1.3")
+#Name
     print ("                                                      ")
-    nombre = input ("Su nombre, por favor.No escriba ningun espacio delante.Se usa puramente para personalizacion:")
-    if nombre == ("Administrator"):
-        print ("Hello,Administrator")
-        id = input ("I need your ID")
-        while id == ("Piscina de Entropia"):
-            contraseña1 = input ("I need your password")
-            while contraseña1 == ("M/W7Z6#cU_1Q"):
-                print ("This is the information to you we need")
-                print ("©piscinadeentropia.es 2021/Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
-                print ("This program inclued this modules: Random and time")
-                print ("And this ERROR codes:104= La informacion introducida no es correcta o no es la esperada And this:109 Se ha acabado el Bucle de forma inesperada")
-                print ("Use Ctrl+tecla c for exit")
-                print ("-------")
-                time.sleep (5)
-                break
-                time.sleep (4)
-            else:
-                print ("This is  not correct")
-        while id == ("Developer"):
-            contraseña2 = input ("I need your password")
-            while contraseña2 == ("m%YM%mBep7:f"):
-                print ("This is the information to you we need")
-                print ("©Piscinadeentropia.es 2021/Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
-                print ("This program inclued this modules: Random , time ,datetime and timeit")
-                print ("And this ERROR codes:104= La informacion introducida no es correcta o no es la esperada And this:109 Se ha acabado el Bucle de forma inesperada, Para acceder al codigo fuente dirigete a: https://github.com/Isaaker/Sword")
-                print ("Use Ctrl+tecla c for exit")
-                print ("-------")
-                time.sleep (5)
-                break
-                time.sleep (4)
-            else:
-                print ("This is  not correct")
+    nombre = input ("Su nombre por favor")
     if nombre == ("Sword"):
         print ("¡¡¡Oye pues yo tambien me llamo asi!!!")
     else:
         print ("Bienvenid@a:")
         print (nombre)
-        #Definicion de los caracteres
-        caracteres4 = ("asdfghjklñqwertyuiopzxcvbnm")
-        caracteres3 = ("QWERTYUIOPASDFGHJKLÑZXCVBNM")
-        caracteres2 = ("1234567890")
-        caracteres1 = ("#@¡!+-_.,=&%$/*:;ªº")
         #Start Menu opciones
         print ("A.¿Que eres?")
         print ("B.Crear contraseña")
@@ -182,4 +154,4 @@ while True:
         print ("Se reiniciara en breve...")
         time.sleep (5)
 print ("Posible ERROR 109")
-#Final del programa
+#Final Español
