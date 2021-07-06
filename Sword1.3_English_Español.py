@@ -8,20 +8,23 @@ characters3 = ("QWERTYUIOPASDFGHJKLÑZXCVBNM")
 characters2 = ("1234567890")
 characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
 #Language
+print ("a. English")
+print ("b. Español")
 Language = input ("Choose a language / Elije un Idioma")
-
-#Español
-while True:
-#Name
-    print ("                                                      ")
-    nombre = input ("Su nombre por favor")
-    if nombre == ("Sword"):
-        print ("¡¡¡Oye pues yo tambien me llamo asi!!!")
-    else:
-        print ("Bienvenid@a:")
-        print (nombre)
-        #Start Menu opciones
-        print ("A.¿Que eres?")
+if Language
+if Language == ("b"):
+    #Español
+    while True:
+        #Name
+        print ("                                                      ")
+        nombre = input ("Su nombre por favor")
+        if nombre == ("Sword"):
+            print ("¡¡¡Oye pues yo tambien me llamo asi!!!")
+        else:
+            print ("Bienvenid@a:")
+            print (nombre)
+            #Start Menu opciones
+            print ("A.¿Que eres?")
         print ("B.Crear contraseña")
         print ("C.Creditos")
         print ("D.Version")
