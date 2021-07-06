@@ -11,9 +11,11 @@ characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
 print ("a. English")
 print ("b. Español")
 Language = input ("Choose a language / Elije un Idioma")
-if Language
+if Language == ("a"):
+    
 if Language == ("b"):
     #Español
+    print ("Has elejido Ingles")
     while True:
         #Name
         print ("                                                      ")
@@ -145,16 +147,17 @@ if Language == ("b"):
                 print ("Gracias por usar nuestro programa")
                 time.sleep(4)
         #Asistente de inicio/fin
-    print ("                                                                                                                                                                                                             ")
-    print ("Indique salir para que el programa no se reinicie, en el caso de que lo quiera volver a usar escriba Continuar.")
-    reiniciar = input ("Elija: A.Salir o B.Continuar")
-    #Salida
-    if reiniciar == ("a"):
-        print ("Hasta luego")
-        break
-    #Reinicio
-    if reiniciar == ("b"):
-        print ("Se reiniciara en breve...")
-        time.sleep (5)
-print ("Posible ERROR 109")
-#Final Español
+        print ("                                                                                                                                                                                                             ")
+        print ("Indique salir para que el programa no se reinicie, en el caso de que lo quiera volver a usar escriba Continuar.")
+        reiniciar = input ("Elija: A.Salir o B.Continuar")
+        #Salida
+        if reiniciar == ("a"):
+            print ("Hasta luego")
+            break
+        #Reinicio
+        if reiniciar == ("b"):
+            print ("Se reiniciara en breve...")
+            time.sleep (5)
+    print ("Posible ERROR 109")
+    #Final Español
+print ("Sword 1.3")
