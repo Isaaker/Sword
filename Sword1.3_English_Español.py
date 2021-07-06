@@ -8,18 +8,20 @@ characters3 = ("QWERTYUIOPASDFGHJKLÑZXCVBNM")
 characters2 = ("1234567890")
 characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
 #Language
+time.sleep (2)
 print ("a. English")
 print ("b. Español")
-Language = input ("Choose a language / Elije un Idioma")
-if Language == ("a"):
-    
-if Language == ("b"):
+language = input ("Choose a language / Elije un Idioma ")
+if language == ("a"):
+    print ("You have chosen English")
+    print ("This language is not yet available")
+if language == ("b"):
     #Español
-    print ("Has elejido Ingles")
+    print ("Has elejido Español")
     while True:
         #Name
         print ("                                                      ")
-        nombre = input ("Su nombre por favor")
+        nombre = input ("Su nombre por favor ")
         if nombre == ("Sword"):
             print ("¡¡¡Oye pues yo tambien me llamo asi!!!")
         else:
@@ -32,7 +34,7 @@ if Language == ("b"):
         print ("D.Version")
         print ("E.Informar de un fallo")
         print ("?(Ayuda)")
-        userName = input ("Elije una opcion")
+        userName = input ("Elije una opcion ")
         #¿Que eres?
         if userName == ("?"):
             print ("Hola Bienvenido a el portal de Ayuda")
@@ -41,27 +43,25 @@ if Language == ("b"):
             time.sleep (1)
             print ("------------------------------")
             print ("A.Instrucciones de Uso")
-            print ("B.Consultar Manual")
-            print ("C.Acceder al portal de Tecnico/Administrador")
+            print ("B.Consultar Codigo Fuente")
+            print ("C.Consultar la licencia")
             print ("D.Crear Contraseñas")
             print ("E.Salir")
             time.sleep (2)
-            help1 = input ("¿En que te puedo ayudar?")
+            help1 = input ("¿En que te puedo ayudar? ")
             if help1 == ("a"):
                 print ("                                                                                                                                              ")
                 print ("Instrucciones de uso de Sword 1.3:")
-                print ("Para Comenzar Sword le preguntara su nombre por razones puramente de personalizacion, una vez que lo obtenga le mostrara un  menu con letras delante SOLO DEBE TECLEAR LA LETRA aunque se encuentre en mayusculas tecle la letra en minusculas. Despues de obtener sus seleccion le llevara a su eleccion,  siendo el caso de Crear Contraseña a otro menu (Leer Articulo de Ayuda sobre: Crear Contraseñas).")
+                print ("Para Comenzar Sword le preguntara su idioma, despues su nombre por razones puramente de personalizacion, una vez que lo obtenga le mostrara un  menu con letras delante SOLO DEBE TECLEAR LA LETRA aunque se encuentre en mayusculas tecle la letra en minusculas. Despues de obtener sus seleccion le llevara a su eleccion,  siendo el caso de Crear Contraseña a otro menu (Leer Articulo de Ayuda sobre: Crear Contraseñas).")
             if help1 == ("b"):
-                print ("Para consultar el Manual completo busque un archivo llamado SwordManual1_3 incluido en el zip descargado, si no lo encuentra vuelva a descargar el zip")
+                print ("Para consultar el codigo fuente dirigete a: https://github.com/Isaaker/Sword")
             if help1 == ("c"):
-                print ("Para acceder al portl Tecnico/Administrativo necesitara  una ID este portal es solo para el uso de la empresa pero si se solicita cabe la posibilidad de que se conceda el acceso")
+                print ("Para consultar la licencia dirigete a: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt")
             if help1 == ("d"):
-                print ("Para Crear una contraseña debes dirigirte al respectivo menu (leer Instrucciones de Uso) despues le preguntara si desea un PIN que es igual que lo que usa para desbloquear el telefono o una Contraseña Normal que es lo que usas por ejemplo para desbloquear un ordenador y desppues te realizara unas cuantas preguntas mas y... Listo!")
+                print ("Para Crear una contraseña debes dirigirte al respectivo menu (leer Instrucciones de Uso) despues le preguntara si desea un PIN que es igual que lo que usa para desbloquear el telefono o una Contraseña Normal que es lo que usas por ejemplo para desbloquear un ordenador y despues te realizara unas cuantas preguntas mas y... Listo!")
             if help1 == ("e"):
                        print ("Cerrando...")
                        time.sleep (2)
-            print ("Si necesitas mas ayuda Contacta con: DARK SISTEMYS o LAKPAD TECHNOLOGIES ambas compañias de Planasa s.a Group")
-            time.sleep(2)
         if userName == "a":
             print ("Soy un programa llamado Sword que se usa para generar contraseñas seguras")
             time.sleep(4)
@@ -70,10 +70,10 @@ if Language == ("b"):
             print ("Actualmente se encuentra en la version 1.3 de Sword,Version Española")
         #ERRORES
         if userName == "e":
-            print ("Para informar de un ERROR debera contactar con DARK SISTEMYS O LAKPAD TECCHNOLOGIES.Puede hacerlo en el siguiente correo electronico:hernan.marti.isaac@gmail.com o en la cuenta  de GitHub:Isaaker.Gracias de antemano por tu colaboracion")
+            print ("Para informar de un ERROR puede hacerlo en el siguiente correo electronico:hernan.marti.isaac@gmail.com o en la cuenta  de GitHub:Isaaker.Gracias de antemano por tu colaboracion")
         #Creditos    
         if userName == "c":
-            print ("©Piscinadeentropia.es 2021/Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
+            print ("Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
             print ("Para ver la licencia del programa dirigete a: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt")
             time.sleep(10)
         #Creador de Contraseñas
@@ -148,8 +148,8 @@ if Language == ("b"):
                 time.sleep(4)
         #Asistente de inicio/fin
         print ("                                                                                                                                                                                                             ")
-        print ("Indique salir para que el programa no se reinicie, en el caso de que lo quiera volver a usar escriba Continuar.")
-        reiniciar = input ("Elija: A.Salir o B.Continuar")
+        print ("Indique A para apagar el programa, de lo contrario indique B.")
+        reiniciar = input ("Elija: A.Salir o B.Continuar ")
         #Salida
         if reiniciar == ("a"):
             print ("Hasta luego")
@@ -158,6 +158,5 @@ if Language == ("b"):
         if reiniciar == ("b"):
             print ("Se reiniciara en breve...")
             time.sleep (5)
-    print ("Posible ERROR 109")
     #Final Español
 print ("Sword 1.3")
