@@ -14,7 +14,6 @@ print ("b. Español")
 language = input ("Choose a language / Elije un Idioma ")
 if language == ("a"):
     print ("You have chosen English")
-    print ("This language is not yet available")
     while True:
         #Name
         print ("                                                      ")
