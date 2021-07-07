@@ -28,7 +28,7 @@ if language == ("b"):
             print ("Bienvenid@a:")
             print (nombre)
             #Start Menu opciones
-            print ("A.¿Que eres?")
+        print ("A.¿Que eres?")
         print ("B.Crear contraseña")
         print ("C.Creditos")
         print ("D.Version")
