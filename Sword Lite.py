@@ -33,44 +33,44 @@ if language == ("a"):
         userName = input ("Choose an option ")
         #¿Que eres?
         if userName == ("?"):
-            print ("Hola Bienvenido a el portal de Ayuda")
+            print ("Welcome to the Help Portal")
             time.sleep (1)
-            print ("Aqui podras encontrar informacion importante acerca de este programa")
+            print ("Here you can find important information about this program.")
             time.sleep (1)
             print ("------------------------------")
-            print ("A.Instrucciones de Uso")
-            print ("B.Consultar Codigo Fuente")
-            print ("C.Consultar la licencia")
-            print ("D.Crear Contraseñas")
-            print ("E.Salir")
+            print ("A.Instructions for Use")
+            print ("B.Consult Source Code")
+            print ("C.Consult the license")
+            print ("D.Create Passwords)
+            print ("E.Exit")
             time.sleep (2)
-            help1 = input ("¿En que te puedo ayudar? ")
+            help1 = input ("How can I help you? ")
             if help1 == ("a"):
                 print ("                                                                                                                                              ")
-                print ("Instrucciones de uso de Sword 1.3:")
-                print ("Para Comenzar Sword le preguntara su idioma, despues su nombre por razones puramente de personalizacion, una vez que lo obtenga le mostrara un  menu con letras delante SOLO DEBE TECLEAR LA LETRA aunque se encuentre en mayusculas tecle la letra en minusculas. Despues de obtener sus seleccion le llevara a su eleccion,  siendo el caso de Crear Contraseña a otro menu (Leer Articulo de Ayuda sobre: Crear Contraseñas).")
+                print ("Instructions for use Sword:")
+                print ("To start Sword will ask you for your language, then your name for purely personalization reasons, once you get it it will show you a menu with letters in front of it, you ONLY MUST TYPE THE LETTER even if it is in upper case type the letter in lower case. After getting your selection it will take you to your choice, being the case of Create Password to another menu (Read Help Article on: Create Passwords).")
             if help1 == ("b"):
-                print ("Para consultar el codigo fuente dirigete a: https://github.com/Isaaker/Sword")
+                print ("To consult the source code go to: https://github.com/Isaaker/Sword")
             if help1 == ("c"):
-                print ("Para consultar la licencia dirigete a: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt")
+                print ("To consult the license go to: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt")
             if help1 == ("d"):
-                print ("Para Crear una contraseña debes dirigirte al respectivo menu (leer Instrucciones de Uso) despues le preguntara si desea un PIN que es igual que lo que usa para desbloquear el telefono o una Contraseña Normal que es lo que usas por ejemplo para desbloquear un ordenador y despues te realizara unas cuantas preguntas mas y... Listo!")
+                print ("To create a password you must go to the respective menu (read Instructions for Use) then it will ask you if you want a PIN which is the same as what you use to unlock the phone or a Normal Password which is what you use for example to unlock a computer and then it will ask you a few more questions and... Done")
             if help1 == ("e"):
-                       print ("Cerrando...")
+                       print ("Closing...")
                        time.sleep (2)
         if userName == "a":
-            print ("Soy un programa llamado Sword que se usa para generar contraseñas seguras")
+            print ("I am a program called Sword that is used to generate secure passwords.")
             time.sleep(4)
         #Version
         if userName == "b":
-            print ("Actualmente se encuentra en la version 1.3 de Sword,Version Española")
+            print ("You are currently in the Lite version of Sword")
         #ERRORES
         if userName == "e":
-            print ("Para informar de un ERROR puede hacerlo en el siguiente correo electronico:hernan.marti.isaac@gmail.com o en la cuenta  de GitHub:Isaaker.Gracias de antemano por tu colaboracion")
+            print ("To report an ERROR you can do it in the following email electronico:hernan.marti.isaac@gmail.com or in the GitHub account:Isaaker. Thanks in advance for your collaboration")
         #Creditos    
         if userName == "c":
-            print ("Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
-            print ("Para ver la licencia del programa dirigete a: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt")
+            print ("Author:Isaaker/Programmed with a:Raspberry Pi 400/Using:Thonny Python IDE/Version Lite de Sword")
+            print ("To see the program license go to: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt")
             time.sleep(10)
         #Creador de Contraseñas
         if userName == "d":
@@ -206,7 +206,7 @@ if language == ("b"):
             time.sleep(4)
         #Version
         if userName == "b":
-            print ("Actualmente se encuentra en la version 1.3 de Sword Lite,Version Española")
+            print ("Actualmente se encuentra en la version Lite de Sword")
         #ERRORES
         if userName == "e":
             print ("Para informar de un ERROR puede hacerlo en el siguiente correo electronico:hernan.marti.isaac@gmail.com o en la cuenta  de GitHub:Isaaker.Gracias de antemano por tu colaboracion")
