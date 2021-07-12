@@ -1,0 +1,62 @@
+SWORD MANUAL
+-------------------------------
+   Table of Contents
+
+    1.What is Sword?
+    2.Where is its source code?
+    3.Under what license is it?
+    Is it free?
+    How does it work?
+    6.Do you collect or process my data?
+    7.Can you see the passwords I generate?
+    8.I need help
+    9.I want to collaborate
+    10.Credits
+-------------------------------
+
+1. What is Sword?
+
+Sword is a program to Generate Random Passwords and PINs, of course we are working hard to improve it. To learn more about how it works go to section 5.
+
+2. Where is its source code?
+
+Its source code is stored in a public GitHub repository, which you can find at the following address: https://github.com/Isaaker/Sword
+
+3. What license is it under?
+
+The program is under a license: Creative Commons Attribution-ShareAlike 4.0 International Public License, to see the license go to: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt
+
+4.Is it free?
+
+Yes, Sword is totally free (see Notice at the end of the manual).
+
+How does it work?
+
+To start Sword will ask you for your language, then your name for purely personalization reasons, once you get it it will show you a menu with letters in front of it. You MUST ONLY TYPE THE LETTER even if it is in upper case type the letter in lower case. After you get your selection it will take you to the next menu or function.
+
+Do you collect or process my data?
+
+No. (See Notice at the end of the Manual).
+
+7.Can you see the passwords I generate?
+
+In theory it is not possible, since the program runs in Local, however if you run it online there are risks. (Read the warning at the end of the Manual).
+
+8.I need help
+
+To get help from the creator of the program you can write to: hernan.marti.isaac@gmail.com
+
+9.I want to collaborate
+
+Thank you very much for your interest in contributing, you can help in our GitHub repository: https://github.com/Isaaker/Sword
+(A GitHub account is required).
+
+10.
+
+Author: Isaaker (https://piscinadeentropia.es), Acknowledgements: @antoniohernan, Thoony Phyton IDE, DeepL Translator, GitHub and the people who collaborate from GitHub.
+
+
+ATTENTION!!!: The information provided in points 4, 6 and 7 of the Manual may vary if the Sword Version is not authorized or is not in the list of versions compatible with this Manual.
+
+VERSIONS COMPATIBLE WITH THIS MANUAL:
+- Sword Lite
