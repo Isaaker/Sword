@@ -76,13 +76,13 @@ if language == ("a"):
         if userName == "d":
             #Preference
             print ("A.PIN")
-            print ("B.Contraseña normal")
-            tipo = input ("Elije")
+            print ("B.Password")
+            tipo = input ("Choose")
             if tipo == ("a"):
                 #Leght
-                longitud = input ("¿Longitud de la Contraseña, por favor?")
+                longitud = input ("Password length, please?")
                 #Quantity
-                cantidad = input ("¿Cuantas contraseñas deseas?")
+                cantidad = input ("How many passwords do you want?")
                 cantidad = int(cantidad)
                 longitud = int(longitud)
                     #Crete
@@ -92,67 +92,67 @@ if language == ("a"):
                         contraseña += random.choice(caracteres2)
                         #Delivery
                     print ("----------")
-                    print ("Nombre:")
+                    print ("Name:")
                     print (nombre)
-                    print ("Contraseña:")
+                    print ("Password:")
                     print (contraseña)
                 #Asistant
                 print ("---------")
                 print (nombre)
-                print ("tus contraseña o contraseñas estan listas mas arriba")
+                print ("your password(s) are listed above")
                 time.sleep(4)
-                print ("Gracias por usar nuestro programa")
+                print ("Thank you for using our program")
                 time.sleep(4)
             if tipo ==  ("b"):
                 #Length
-                longitud = input ("¿Longitud de la Contraseña, por favor?")
+                longitud = input ("Password length, please?")
                 #Quantity
-                cantidad = input ("¿Cuantas contraseñas deseas?")
+                cantidad = input ("How many passwords do you want?")
                 cantidad = int(cantidad)
                 longitud = int(longitud)
                     #Create
                 for p in range(cantidad):
                     contraseña = ""
                     for c in range(longitud):
-                        caracteres_numericos = input ("¿Quieres caracteres numericos?")
-                        if caracteres_numericos == ("Si"):
+                        caracteres_numericos = input ("Do you want numeric characters?")
+                        if caracteres_numericos == ("Yes"):
                             contraseña += random.choice(caracteres2)   
-                        caracteres_letras1 = input ("¿Quieres letras mayusculas?")
-                        if caracteres_letras1 == ("Si"):
+                        caracteres_letras1 = input ("Do you want capital letters?")
+                        if caracteres_letras1 == ("Yes"):
                             contraseña += random.choice(caracteres3)
-                        caracteres_letras2 = input ("¿Quiere letras minusculas?")
-                        if caracteres_letras2 == ("Si"):
+                        caracteres_letras2 = input ("Do you want lowercase letters?")
+                        if caracteres_letras2 == ("Yes"):
                             contraseña += random.choice(caracteres4)
-                        caracteres = input ("¿Quieres Caracteres especiales?")
-                        if caracteres == ("Si"):
+                        caracteres = input ("Do you want special characters?")
+                        if caracteres == ("Yes"):
                             contraseña += random.choice(caracteres1)
-                        print ("Si ha solicitado mas contraseñas el proceso se repetira")
+                        print ("If you have requested more passwords the process will be repeated.")
                         print ("--------")
                         #Delivery
                     print ("----------")
-                    print ("Nombre:")
+                    print ("Name:")
                     print (nombre)
-                    print ("Contraseña:")
+                    print ("Password:")
                     print (contraseña)
                 #Asistant
                 print ("---------")
                 time.sleep (4)
                 print (nombre)
-                print ("tus contraseña o contraseñas estan listas mas arriba")
+                print ("your password(s) are listed above")
                 time.sleep(4)
-                print ("Gracias por usar nuestro programa")
+                print ("Thank you for using our program")
                 time.sleep(4)
         #Start / End
         print ("                                                                                                                                                                                                             ")
-        print ("Indique A para apagar el programa, de lo contrario indique B.")
-        reiniciar = input ("Elija: A.Salir o B.Continuar ")
+        print ("Indicate A to turn off the program, otherwise indicate B.")
+        reiniciar = input ("Choose: A.Exit or B.Continue ")
         #Exit
         if reiniciar == ("a"):
-            print ("Hasta luego")
+            print ("See you later")
             break
         #Reboot
         if reiniciar == ("b"):
-            print ("Se reiniciara en breve...")
+            print ("It will be restarted shortly...")
             time.sleep (5)
 if language == ("b"):
     #Español
@@ -212,7 +212,7 @@ if language == ("b"):
             print ("Para informar de un ERROR puede hacerlo en el siguiente correo electronico:hernan.marti.isaac@gmail.com o en la cuenta  de GitHub:Isaaker.Gracias de antemano por tu colaboracion")
         #Creditos    
         if userName == "c":
-            print ("Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version 1.3 Sword")
+            print ("Author:Isaaker/Programado con una:Raspberry Pi 400/Usando:Thonny Python IDE/Version Lite de Sword")
             print ("Para ver la licencia del programa dirigete a: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt")
             time.sleep(10)
         #Creador de Contraseñas
