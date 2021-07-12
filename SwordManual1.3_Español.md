@@ -1,5 +1,5 @@
-#Manual de Sword#
-##By: Isaaker##
+Manual de Sword
+By: Isaaker
 
 
 ![73C37446-F837-4B52-A6EB-7B487B4351BD-296x300](https://user-images.githubusercontent.com/77550577/124257155-608f9a80-db2c-11eb-9262-286a26ffc37d.jpeg)
