@@ -1,0 +1,62 @@
+MANUAL DE SWORD
+-------------------------------
+   Tabla de contenido
+
+    1.¿Que es Sword?
+    2.¿Donde esta su codigo fuente?
+    3.¿Bajo que licencia esta?
+    4.¿Es Gratis?
+    5.¿Como funciona?
+    6.¿Recoges o tratas mis datos?
+    7.¿Puedes ver las contraseñas que genero?
+    8.Necesito Ayuda
+    9.Quiero colaborar
+    10.Creditos
+-------------------------------
+
+1. ¿Que es Sword?
+
+Sword es un programa para Generar Contraseñas y PINs Aleatorios, evidentemente trabajoamos todo lo posible por mejorarlo. Para saber mas de como funciona ves al apartado 5.
+
+2. ¿Donde esta su codigo Fuente?
+
+Su codigo fuente se encuentra almacendado en un Repositorio de GitHub publico, que podras encontrar en la siguiente direccion: https://github.com/Isaaker/Sword
+
+3. ¿Bajo que licencia esta?
+
+El programa se encuentra bajo una licencia: Creative Commons Attribution-ShareAlike 4.0 International Public License, para ver la licencia dirigete a: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt
+
+4.¿Es Gratis?
+
+Si Sword es totalmente Gratis.(Leer Aviso del Final del Manual)
+
+5.¿Como funciona?
+
+Para Comenzar Sword le preguntara su idioma, despues su nombre por razones puramente de personalizacion, una vez que lo obtenga le mostrara un  menu con letras delante. SOLO DEBE TECLEAR LA LETRA aunque se encuentre en mayusculas tecle la letra en minusculas. Despues de obtener su seleccion le llevara a el siguiente menu o funcion.
+
+6.¿Recoges o tratas mis datos?
+
+No.(Leer Aviso del final del Manual).
+
+7.¿Puedes ver las contraseñas que genero?
+
+En teoria no es posible, ya que el programa se ejecuta en Local, sin embargo si lo ejecutas en linea existen riesgos.(Leer aviso del final del Manual.)
+
+8.Necesito Ayuda
+
+Para obtener ayuda de el creador del programa puedes escribir a: hernan.marti.isaac@gmail.com
+
+9.Quiero colaborar
+
+Muchas gracias por interesarte por colaborar, puedes ayudar en nuestro repositorio de GitHub: https://github.com/Isaaker/Sword
+(Es necesaria una cuenta de GitHub).
+
+10.
+
+Autor: Isaaker (https://piscinadeentropia.es), Agradecimientos: @antoniohernan, Thoony Phyton IDE, GitHub y a la gente que colabora desde GitHub.
+
+
+ATENCION!!!: La informacion que se aporta en los puntos 4, 6 y 7 del Manual puede variar si la Version de Sword no esta authorizada o no se encuentra en la lista de versiones compatibles con este Manual.
+
+VERSIONES COMPATIBLES CON ESTE MANUAL:
+- Sword Lite
