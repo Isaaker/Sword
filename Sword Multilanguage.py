@@ -11,7 +11,8 @@ characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
 time.sleep (2)
 print ("a. English")
 print ("b. Español")
-language = input ("Choose a language / Elije un Idioma ")
+print ("c. Français")
+language = input ("Choose a language / Elije un Idioma /Choisissez votre langue ")
 if language == ("a"):
     print ("You have chosen English")
     print ("Language not avaible")
@@ -158,5 +159,8 @@ if language == ("b"):
         if reiniciar == ("b"):
             print ("Se reiniciara en breve...")
             time.sleep (5)
+if language == ("c"):
+    print ("Vous avez choisi le français")
+    print ("Langue non disponible")
 #End
 print ("Sword 1.3")
