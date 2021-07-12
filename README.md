@@ -8,5 +8,5 @@ Thank you very much.
 ![Imagen 2-7-21 a las 11 33](https://user-images.githubusercontent.com/77550577/124254773-b0b92d80-db29-11eb-9a58-c2b790fbea85.jpeg)
 
 Sword versions:
-- Sword Lite: Sword Lite will have two languages integrated in its code, Spanish and English. And unlike Sword Multilanguage it will not work with language files.
-- Sword Multilanguage: Sword Multilanguage will work through gettext and the use of .pot and .po language files.
+- Sword Lite: Sword Lite will have two languages integrated in its code, Spanish and English. And unlike Sword Multilanguage it will not work with language files.-Available-
+- Sword Multilanguage: Sword Multilanguage will work through gettext and the use of .pot and .po language files.-Not available-
