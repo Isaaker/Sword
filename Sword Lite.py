@@ -2,6 +2,7 @@ print ("SWORD Lite")
 #import
 import random 
 import time
+import webbrowser
 #characters
 characters4 = ("asdfghjklñqwertyuiopzxcvbnm")
 characters3 = ("QWERTYUIOPASDFGHJKLÑZXCVBNM")
@@ -41,8 +42,9 @@ if language == ("a"):
             print ("A.Instructions for Use")
             print ("B.Consult Source Code")
             print ("C.Consult the license")
-            print ("D.Create Passwords)
-            print ("E.Exit")
+            print ("D.Create Passwords")
+            print ("E.Visit Sword's official website")
+            print ("F.Exit")
             time.sleep (2)
             help1 = input ("How can I help you? ")
             if help1 == ("a"):
@@ -56,6 +58,10 @@ if language == ("a"):
             if help1 == ("d"):
                 print ("To create a password you must go to the respective menu (read Instructions for Use) then it will ask you if you want a PIN which is the same as what you use to unlock the phone or a Normal Password which is what you use for example to unlock a computer and then it will ask you a few more questions and... Done")
             if help1 == ("e"):
+                webbrowser.open(
+    'https://piscinadeentropia.es/Sword'
+)
+            if help1 == ("f"):
                        print ("Closing...")
                        time.sleep (2)
         if userName == "a":
@@ -154,6 +160,8 @@ if language == ("a"):
         if reiniciar == ("b"):
             print ("It will be restarted shortly...")
             time.sleep (5)
+        else:
+            break
 if language == ("b"):
     #Español
     print ("Has elejido Español")
@@ -171,7 +179,7 @@ if language == ("b"):
         print ("B.Crear contraseña")
         print ("C.Creditos")
         print ("D.Version")
-        print ("E.Informar de un fallo")
+        print ("E.Informar de un fallo")        
         print ("?(Ayuda)")
         userName = input ("Elije una opcion ")
         #¿Que eres?
@@ -185,7 +193,8 @@ if language == ("b"):
             print ("B.Consultar Codigo Fuente")
             print ("C.Consultar la licencia")
             print ("D.Crear Contraseñas")
-            print ("E.Salir")
+            print ("E. Ver la pagina oficial de Sword")
+            print ("F.Salir")
             time.sleep (2)
             help1 = input ("¿En que te puedo ayudar? ")
             if help1 == ("a"):
@@ -199,8 +208,15 @@ if language == ("b"):
             if help1 == ("d"):
                 print ("Para Crear una contraseña debes dirigirte al respectivo menu (leer Instrucciones de Uso) despues le preguntara si desea un PIN que es igual que lo que usa para desbloquear el telefono o una Contraseña Normal que es lo que usas por ejemplo para desbloquear un ordenador y despues te realizara unas cuantas preguntas mas y... Listo!")
             if help1 == ("e"):
-                       print ("Cerrando...")
-                       time.sleep (2)
+                webbrowser.open(
+    'https://piscinadeentropia.es/Sword'
+)
+
+            if help1 == ("f"):
+                print ("Cerrando...")
+                time.sleep (2)
+            
+                
         if userName == "a":
             print ("Soy un programa llamado Sword que se usa para generar contraseñas seguras")
             time.sleep(4)
@@ -297,5 +313,7 @@ if language == ("b"):
         if reiniciar == ("b"):
             print ("Se reiniciara en breve...")
             time.sleep (5)
+        else:
+            break
 #End
 print ("Sword Lite")
