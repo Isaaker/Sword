@@ -25,9 +25,9 @@ if language == ("a"):
             print (nombre)
             #Start Menu opciones
         print ("A.What are you?")
-        print ("B.Create password")
+        print ("B.Version")
         print ("C.Credits")
-        print ("D.Version")
+        print ("D.Create password")
         print ("E.Report an error")
         print ("?.Help")
         userName = input ("Choose an option ")
@@ -168,10 +168,15 @@ if language == ("b"):
             print (nombre)
             #Start Menu opciones
         print ("A.¿Que eres?")
-        print ("B.Crear contraseña")
+        print ("B.Version")
         print ("C.Creditos")
+<<<<<<< Updated upstream
         print ("D.Version")
         print ("E.Informar de un fallo")
+=======
+        print ("D.Crear contraseña")
+        print ("E.Informar de un fallo")        
+>>>>>>> Stashed changes
         print ("?(Ayuda)")
         userName = input ("Elije una opcion ")
         #¿Que eres?
