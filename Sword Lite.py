@@ -7,6 +7,7 @@ characters4 = ("asdfghjklñqwertyuiopzxcvbnm")
 characters3 = ("QWERTYUIOPASDFGHJKLÑZXCVBNM")
 characters2 = ("1234567890")
 characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
+unificado = ("asdfghjklñqwertyuiopzxcvbnmQWERTYUIOPASDFGHJKLÑZXCVBNM1234567890#@¡!+-_.,=&%$/*:;ªº")
 #Language
 time.sleep (2)
 print ("a. English")
@@ -41,7 +42,7 @@ if language == ("a"):
             print ("A.Instructions for Use")
             print ("B.Consult Source Code")
             print ("C.Consult the license")
-            print ("D.Create Passwords)
+            print ("D.Create Passwords")
             print ("E.Exit")
             time.sleep (2)
             help1 = input ("How can I help you? ")
@@ -89,7 +90,7 @@ if language == ("a"):
                 for p in range(cantidad):
                     contraseña = ""
                     for c in range(longitud):
-                        contraseña += random.choice(caracteres2)
+                        contraseña += random.choice(characters2)
                         #Delivery
                     print ("----------")
                     print ("Name:")
@@ -114,21 +115,10 @@ if language == ("a"):
                 for p in range(cantidad):
                     contraseña = ""
                     for c in range(longitud):
-                        caracteres_numericos = input ("Do you want numeric characters?")
-                        if caracteres_numericos == ("Yes"):
-                            contraseña += random.choice(caracteres2)   
-                        caracteres_letras1 = input ("Do you want capital letters?")
-                        if caracteres_letras1 == ("Yes"):
-                            contraseña += random.choice(caracteres3)
-                        caracteres_letras2 = input ("Do you want lowercase letters?")
-                        if caracteres_letras2 == ("Yes"):
-                            contraseña += random.choice(caracteres4)
-                        caracteres = input ("Do you want special characters?")
-                        if caracteres == ("Yes"):
-                            contraseña += random.choice(caracteres1)
-                        print ("If you have requested more passwords the process will be repeated.")
-                        print ("--------")
-                        #Delivery
+                        contraseña += random.choice(unificado)
+                    print ("If you have requested more passwords the process will be repeated.")
+                    print ("--------")
+                    #Delivery
                     print ("----------")
                     print ("Name:")
                     print (nombre)
@@ -170,13 +160,8 @@ if language == ("b"):
         print ("A.¿Que eres?")
         print ("B.Version")
         print ("C.Creditos")
-<<<<<<< Updated upstream
-        print ("D.Version")
-        print ("E.Informar de un fallo")
-=======
         print ("D.Crear contraseña")
-        print ("E.Informar de un fallo")        
->>>>>>> Stashed changes
+        print ("E.Informar de un fallo")
         print ("?(Ayuda)")
         userName = input ("Elije una opcion ")
         #¿Que eres?
@@ -237,7 +222,7 @@ if language == ("b"):
                 for p in range(cantidad):
                     contraseña = ""
                     for c in range(longitud):
-                        contraseña += random.choice(caracteres2)
+                        contraseña += random.choice(characters2)
                         #Delivery
                     print ("----------")
                     print ("Nombre:")
@@ -262,21 +247,10 @@ if language == ("b"):
                 for p in range(cantidad):
                     contraseña = ""
                     for c in range(longitud):
-                        caracteres_numericos = input ("¿Quieres caracteres numericos?")
-                        if caracteres_numericos == ("Si"):
-                            contraseña += random.choice(caracteres2)   
-                        caracteres_letras1 = input ("¿Quieres letras mayusculas?")
-                        if caracteres_letras1 == ("Si"):
-                            contraseña += random.choice(caracteres3)
-                        caracteres_letras2 = input ("¿Quiere letras minusculas?")
-                        if caracteres_letras2 == ("Si"):
-                            contraseña += random.choice(caracteres4)
-                        caracteres = input ("¿Quieres Caracteres especiales?")
-                        if caracteres == ("Si"):
-                            contraseña += random.choice(caracteres1)
-                        print ("Si ha solicitado mas contraseñas el proceso se repetira")
-                        print ("--------")
-                        #Delivery
+                        contraseña += random.choice(unificado)
+                    print ("Si ha solicitado mas contraseñas el proceso se repetira")
+                    print ("--------")
+                    #Delivery
                     print ("----------")
                     print ("Nombre:")
                     print (nombre)
