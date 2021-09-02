@@ -8,6 +8,7 @@ characters4 = ("asdfghjklñqwertyuiopzxcvbnm")
 characters3 = ("QWERTYUIOPASDFGHJKLÑZXCVBNM")
 characters2 = ("1234567890")
 characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
+unificado = ("asdfghjklñqwertyuiopzxcvbnmQWERTYUIOPASDFGHJKLÑZXCVBNM1234567890#@¡!+-_.,=&%$/*:;ªº")
 #Language
 time.sleep (2)
 print ("a. English")
@@ -26,9 +27,9 @@ if language == ("a"):
             print (nombre)
             #Start Menu opciones
         print ("A.What are you?")
-        print ("B.Create password")
+        print ("B.Version")
         print ("C.Credits")
-        print ("D.Version")
+        print ("D.Create password")
         print ("E.Report an error")
         print ("?.Help")
         userName = input ("Choose an option ")
@@ -83,7 +84,7 @@ if language == ("a"):
             #Preference
             print ("A.PIN")
             print ("B.Password")
-            tipo = input ("Choose")
+            tipo = input ("Choose ")
             if tipo == ("a"):
                 #Leght
                 longitud = input ("Password length, please?")
@@ -95,7 +96,7 @@ if language == ("a"):
                 for p in range(cantidad):
                     contraseña = ""
                     for c in range(longitud):
-                        contraseña += random.choice(caracteres2)
+                        contraseña += random.choice(characters2)
                         #Delivery
                     print ("----------")
                     print ("Name:")
@@ -111,35 +112,31 @@ if language == ("a"):
                 time.sleep(4)
             if tipo ==  ("b"):
                 #Length
-                longitud = input ("Password length, please?")
+                longitud = input ("Password length, please? ")
                 #Quantity
-                cantidad = input ("How many passwords do you want?")
+                cantidad = input ("How many passwords do you want? ")
                 cantidad = int(cantidad)
                 longitud = int(longitud)
+                print("A. Generate password")
+                print("B. Advanced Settings")
+                creatormenu = input ("")
                     #Create
-                for p in range(cantidad):
-                    contraseña = ""
-                    for c in range(longitud):
-                        caracteres_numericos = input ("Do you want numeric characters?")
-                        if caracteres_numericos == ("Yes"):
-                            contraseña += random.choice(caracteres2)   
-                        caracteres_letras1 = input ("Do you want capital letters?")
-                        if caracteres_letras1 == ("Yes"):
-                            contraseña += random.choice(caracteres3)
-                        caracteres_letras2 = input ("Do you want lowercase letters?")
-                        if caracteres_letras2 == ("Yes"):
-                            contraseña += random.choice(caracteres4)
-                        caracteres = input ("Do you want special characters?")
-                        if caracteres == ("Yes"):
-                            contraseña += random.choice(caracteres1)
+                if creatormenu == ("a"):
+                    for p in range(cantidad):
+                        contraseña = ""
+                        for c in range(longitud):
+                            contraseña += random.choice(unificado)
                         print ("If you have requested more passwords the process will be repeated.")
                         print ("--------")
                         #Delivery
-                    print ("----------")
-                    print ("Name:")
-                    print (nombre)
-                    print ("Password:")
-                    print (contraseña)
+                        print ("----------")
+                        print ("Name:")
+                        print (nombre)
+                        print ("Password:")
+                        print (contraseña)
+                if creatormenu == ("b"):
+                    print ("Not available")
+                    time.sleep (2000)
                 #Asistant
                 print ("---------")
                 time.sleep (4)
@@ -176,10 +173,10 @@ if language == ("b"):
             print (nombre)
             #Start Menu opciones
         print ("A.¿Que eres?")
-        print ("B.Crear contraseña")
+        print ("B.Version")
         print ("C.Creditos")
-        print ("D.Version")
-        print ("E.Informar de un fallo")        
+        print ("D.Crear contraseña")
+        print ("E.Informar de un fallo")     
         print ("?(Ayuda)")
         userName = input ("Elije una opcion ")
         #¿Que eres?
@@ -236,19 +233,19 @@ if language == ("b"):
             #Preference
             print ("A.PIN")
             print ("B.Contraseña normal")
-            tipo = input ("Elije")
+            tipo = input ("Elije ")
             if tipo == ("a"):
                 #Leght
-                longitud = input ("¿Longitud de la Contraseña, por favor?")
+                longitud = input ("¿Longitud de la contraseña?")
                 #Quantity
-                cantidad = input ("¿Cuantas contraseñas deseas?")
+                cantidad = input ("¿Cuantas contraseñas necesitas?")
                 cantidad = int(cantidad)
                 longitud = int(longitud)
                     #Crete
                 for p in range(cantidad):
                     contraseña = ""
                     for c in range(longitud):
-                        contraseña += random.choice(caracteres2)
+                        contraseña += random.choice(characters2)
                         #Delivery
                     print ("----------")
                     print ("Nombre:")
@@ -258,49 +255,36 @@ if language == ("b"):
                 #Asistant
                 print ("---------")
                 print (nombre)
-                print ("tus contraseña o contraseñas estan listas mas arriba")
+                print ("Tus contraseñas las podras encontrar debajo")
                 time.sleep(4)
                 print ("Gracias por usar nuestro programa")
                 time.sleep(4)
             if tipo ==  ("b"):
                 #Length
-                longitud = input ("¿Longitud de la Contraseña, por favor?")
+                longitud = input ("¿Longitud de la contraseña? ")
                 #Quantity
-                cantidad = input ("¿Cuantas contraseñas deseas?")
+                cantidad = input ("¿Cuantas contraseñas necesitas? ")
                 cantidad = int(cantidad)
                 longitud = int(longitud)
+                print("A. Generar contraseña")
+                print("B. Ajustes advanzados")
+                creatormenu = input ("")
                     #Create
-                for p in range(cantidad):
-                    contraseña = ""
-                    for c in range(longitud):
-                        caracteres_numericos = input ("¿Quieres caracteres numericos?")
-                        if caracteres_numericos == ("Si"):
-                            contraseña += random.choice(caracteres2)   
-                        caracteres_letras1 = input ("¿Quieres letras mayusculas?")
-                        if caracteres_letras1 == ("Si"):
-                            contraseña += random.choice(caracteres3)
-                        caracteres_letras2 = input ("¿Quiere letras minusculas?")
-                        if caracteres_letras2 == ("Si"):
-                            contraseña += random.choice(caracteres4)
-                        caracteres = input ("¿Quieres Caracteres especiales?")
-                        if caracteres == ("Si"):
-                            contraseña += random.choice(caracteres1)
-                        print ("Si ha solicitado mas contraseñas el proceso se repetira")
+                if creatormenu == ("a"):
+                    for p in range(cantidad):
+                        contraseña = ""
+                        for c in range(longitud):
+                            contraseña += random.choice(unificado)
                         print ("--------")
                         #Delivery
-                    print ("----------")
-                    print ("Nombre:")
-                    print (nombre)
-                    print ("Contraseña:")
-                    print (contraseña)
-                #Asistant
-                print ("---------")
-                time.sleep (4)
-                print (nombre)
-                print ("tus contraseña o contraseñas estan listas mas arriba")
-                time.sleep(4)
-                print ("Gracias por usar nuestro programa")
-                time.sleep(4)
+                        print ("----------")
+                        print ("Nombre:")
+                        print (nombre)
+                        print ("Contraseña:")
+                        print (contraseña)
+                if creatormenu == ("b"):
+                    print ("No disponible")
+                    time.sleep (2000)
         #Start / End
         print ("                                                                                                                                                                                                             ")
         print ("Indique A para apagar el programa, de lo contrario indique B.")
