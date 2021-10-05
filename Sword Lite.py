@@ -3,6 +3,7 @@ import random
 import time
 import webbrowser
 from tkinter import messagebox
+import color
 print ("        SWORD LITE      ")
 print ("  Powered By: Phyton 3")
 print ("      ©Isaac Hernán")
@@ -146,7 +147,7 @@ while True:
                             print (contraseña)
                     if creatormenu == ("b"):
                         print ("This tool is not available, sorry.")
-                        time.sleep (2000)
+                        time.sleep (20)
                     #Asistant
                     print ("---------")
                     time.sleep (4)
@@ -301,7 +302,7 @@ while True:
                             print (contraseña)
                     if creatormenu == ("b"):
                         print ("Esta herramienta no se encuentra disponible, Lo sentimos.")
-                        time.sleep (2000)
+                        time.sleep (20)
             #Start / End
             print ("                                                                                                                                                                                                             ")
             print ("Indique A para apagar el programa, de lo contrario indique B.")
@@ -318,7 +319,7 @@ while True:
             else:
                 break
     else:
-        messagebox.showwarning (title = ("Sword"), message = ("No valido ejecutando apagado, Not valid running off"))
+        print = ("Sintaxt ERROR", color == (red))
     break
 #End
 print ("Sword Lite")
