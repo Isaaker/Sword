@@ -41,7 +41,7 @@ if language == ("a"):
             print ("A.Instructions for Use")
             print ("B.Consult Source Code")
             print ("C.Consult the license")
-            print ("D.Create Passwords)
+            print ("D.Create Passwords")
             print ("E.Exit")
             time.sleep (2)
             help1 = input ("How can I help you? ")
