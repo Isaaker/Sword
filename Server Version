@@ -11,14 +11,6 @@ characters3 = ("QWERTYUIOPASDFGHJKLÑZXCVBNM")
 characters2 = ("1234567890")
 characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
 unificado = ("asdfghjklñqwertyuiopzxcvbnmQWERTYUIOPASDFGHJKLÑZXCVBNM1234567890#@¡!+-_.,=&%$/*:;ªº")
-#Language
-time.sleep (2)
-print ("a. English")
-print ("b. Español")
-while True:
-    language = input ("Choose a language / Elije un Idioma ")
-    if language == ("a"):
-        print ("You have chosen English")
         while True:
             #Name
             print ("                                                      ")
@@ -56,20 +48,15 @@ while True:
                     print ("Instructions for use Sword:")
                     print ("To start Sword will ask you for your language, then your name for purely personalization reasons, once you get it it will show you a menu with letters in front of it, you ONLY MUST TYPE THE LETTER even if it is in upper case type the letter in lower case. After getting your selection it will take you to your choice, being the case of Create Password to another menu (Read Help Article on: Create Passwords).")
                 if help1 == ("b"):
-                    webbrowser.open(
-        'https://github.com/Isaaker/Sword'
+                    print ("See the source code at: https://github.com/Isaaker/Sword")
     )
                 if help1 == ("c"):
-                    print ("A browser window will open shortly.")
-                    webbrowser.open(
-        'https://github.com/Isaaker/Sword/blob/main/LICENSE.txt'
+                    print ("Se license at: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt")
     )
                 if help1 == ("d"):
                     print ("To create a password you must go to the respective menu (read Instructions for Use) then it will ask you if you want a PIN which is the same as what you use to unlock the phone or a Normal Password which is what you use for example to unlock a computer and then it will ask you a few more questions and... Done")
                 if help1 == ("e"):
-                    print ("A browser window will open shortly.")
-                    webbrowser.open(
-        'https://piscinadeentropia.es/Sword'
+                    print ("See te oficial page in: https://piscinadeentropia.es/Sword")
     )
                 if help1 == ("f"):
                            print ("Closing...")
@@ -168,156 +155,5 @@ while True:
                 time.sleep (5)
             else:
                 break
-    if language == ("b"):
-        #Español
-        print ("Has elejido Español")
-        while True:
-            #Name
-            print ("                                                      ")
-            nombre = input ("Su nombre por favor ")
-            if nombre == ("Sword"):
-                print ("¡¡¡Oye pues yo tambien me llamo asi!!!")
-            else:
-                print ("Bienvenid@a:")
-                print (nombre)
-                #Start Menu opciones
-            print ("A.¿Que eres?")
-            print ("B.Version")
-            print ("C.Creditos")
-            print ("D.Crear contraseña")
-            print ("E.Informar de un fallo")     
-            print ("?(Ayuda)")
-            userName = input ("Elije una opcion ")
-            #¿Que eres?
-            if userName == ("?"):
-                print ("Hola Bienvenido a el portal de Ayuda")
-                time.sleep (1)
-                print ("Aqui podras encontrar informacion importante acerca de este programa")
-                time.sleep (1)
-                print ("------------------------------")
-                print ("A.Instrucciones de Uso")
-                print ("B.Consultar Codigo Fuente")
-                print ("C.Consultar la licencia")
-                print ("D.Crear Contraseñas")
-                print ("E.Ver la pagina oficial de Sword")
-                print ("F.Salir")
-                time.sleep (2)
-                help1 = input ("¿En que te puedo ayudar? ")
-                if help1 == ("a"):
-                    print ("                                                                                                                                              ")
-                    print ("Instrucciones de uso de Sword 1.3:")
-                    print ("Para Comenzar Sword le preguntara su idioma, despues su nombre por razones puramente de personalizacion, una vez que lo obtenga le mostrara un  menu con letras delante SOLO DEBE TECLEAR LA LETRA aunque se encuentre en mayusculas tecle la letra en minusculas. Despues de obtener sus seleccion le llevara a su eleccion,  siendo el caso de Crear Contraseña a otro menu (Leer Articulo de Ayuda sobre: Crear Contraseñas).")
-                if help1 == ("b"):
-                    print ("En breve se abrira una ventana del navegador")
-                    webbrowser.open(
-        'https://github.com/Isaaker/Sword'
-    )
-                if help1 == ("c"):
-                    print ("En breve se abrira una ventana del navegador")
-                    webbrowser.open(
-        'https://github.com/Isaaker/Sword/blob/main/LICENSE.txt'
-    )
-                if help1 == ("d"):
-                    print ("Para Crear una contraseña debes dirigirte al respectivo menu (leer Instrucciones de Uso) despues le preguntara si desea un PIN que es igual que lo que usa para desbloquear el telefono o una Contraseña Normal que es lo que usas por ejemplo para desbloquear un ordenador y despues te realizara unas cuantas preguntas mas y... Listo!")
-                if help1 == ("e"):
-                    print ("En breve se abrira una ventana del navegador")
-                    webbrowser.open(
-        'https://piscinadeentropia.es/Sword'
-    )
-
-                if help1 == ("f"):
-                    print ("Cerrando...")
-                    time.sleep (2)
-                
-                    
-            if userName == "a":
-                print ("Soy un programa llamado Sword que se usa para generar contraseñas seguras")
-                time.sleep(4)
-            #Version
-            if userName == "b":
-                print ("Actualmente se encuentra en la version Lite de Sword")
-            #ERRORES
-            if userName == "e":
-                print ("Para informar de un ERROR puede hacerlo en el siguiente correo electronico:hernan.marti.isaac@gmail.com o en la cuenta  de GitHub:Isaaker.Gracias de antemano por tu colaboracion")
-            #Creditos    
-            if userName == "c":
-                print ("Autor: Isaac Hernán, Powered: Phyton 3, Almacenado en: GitHub, Bajo licencia: Creative Commons Attribution-ShareAlike 4.0 International Public License.")
-                print ("Para ver la licencia del programa dirigete a: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt")
-                time.sleep(10)
-            #Creador de Contraseñas
-            if userName == "d":
-                #Preference
-                print ("A.PIN")
-                print ("B.Contraseña normal")
-                tipo = input ("Elije ")
-                if tipo == ("a"):
-                    #Leght
-                    longitud = input ("¿Longitud de la contraseña?")
-                    #Quantity
-                    cantidad = input ("¿Cuantas contraseñas necesitas?")
-                    cantidad = int(cantidad)
-                    longitud = int(longitud)
-                        #Crete
-                    for p in range(cantidad):
-                        contraseña = ""
-                        for c in range(longitud):
-                            contraseña += random.choice(characters2)
-                            #Delivery
-                        print ("----------")
-                        print ("Nombre:")
-                        print (nombre)
-                        print ("Contraseña:")
-                        print (contraseña)
-                    #Asistant
-                    print ("---------")
-                    print (nombre)
-                    print ("Tus contraseñas las podras encontrar debajo")
-                    time.sleep(4)
-                    print ("Gracias por usar nuestro programa")
-                    time.sleep(4)
-                if tipo ==  ("b"):
-                    #Length
-                    longitud = input ("¿Longitud de la contraseña? ")
-                    #Quantity
-                    cantidad = input ("¿Cuantas contraseñas necesitas? ")
-                    cantidad = int(cantidad)
-                    longitud = int(longitud)
-                    print("A. Generar contraseña (Se utilizaran todos los tipos de caracteres)")
-                    print("B. Ajustes advanzados (Puede seleccionar los caracteres que desea utilizar)")
-                    creatormenu = input ("")
-                        #Create
-                    if creatormenu == ("a"):
-                        for p in range(cantidad):
-                            contraseña = ""
-                            for c in range(longitud):
-                                contraseña += random.choice(unificado)
-                            print ("--------")
-                            #Delivery
-                            print ("----------")
-                            print ("Nombre:")
-                            print (nombre)
-                            print ("Contraseña:")
-                            print (contraseña)
-                    if creatormenu == ("b"):
-                        print ("Esta herramienta no se encuentra disponible, Lo sentimos.")
-                        time.sleep (2000)
-            #Start / End
-            print ("                                                                                                                                                                                                             ")
-            print ("Indique A para apagar el programa, de lo contrario indique B.")
-
-            reiniciar = input ("Elija: A.Salir o B.Continuar ")
-            #Exit
-            if reiniciar == ("a"):
-                print ("Hasta luego")
-                break
-            #Reboot
-            if reiniciar == ("b"):
-                print ("Se reiniciara en breve...")
-                time.sleep (5)
-            else:
-                break
-    else:
-        print ("Invalid Sintaxt")
-    break
 #End
 print ("Sword Lite")
