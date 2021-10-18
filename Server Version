@@ -1,4 +1,4 @@
-# To download, wpget https://github.com/Isaaker/Sword/blob/main/Server%20Version
+# To download, wpget https://raw.githubusercontent.com/Isaaker/Sword/main/Server%20Version
 #import
 import random 
 import time
