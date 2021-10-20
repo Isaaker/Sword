@@ -11,7 +11,8 @@ characters3 = ("QWERTYUIOPASDFGHJKLÑZXCVBNM")
 characters2 = ("1234567890")
 characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
 unificado = ("asdfghjklñqwertyuiopzxcvbnmQWERTYUIOPASDFGHJKLÑZXCVBNM1234567890#@¡!+-_.,=&%$/*:;ªº")
-        while True:
+programa()
+        func programa():
             #Name
             print ("                                                      ")
             nombre = input ("Your name please ")
