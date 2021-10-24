@@ -12,7 +12,7 @@ characters2 = ("1234567890")
 characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
 unificado = ("asdfghjklñqwertyuiopzxcvbnmQWERTYUIOPASDFGHJKLÑZXCVBNM1234567890#@¡!+-_.,=&%$/*:;ªº")
 programa()
-        func programa():
+        def programa():
             #Name
             print ("                                                      ")
             nombre = input ("Your name please ")
