@@ -3,7 +3,6 @@ import random
 import time
 import webbrowser
 from tkinter import messagebox
-import color
 print ("        SWORD LITE      ")
 print ("  Powered By: Phyton 3")
 print ("      ©Isaac Hernán")
@@ -166,7 +165,7 @@ while True:
                 break
             #Reboot
             if reiniciar == ("b"):
-                print ("It will be restarted shortly...")
+                print ("you are being redirected...")
                 time.sleep (5)
             else:
                 break
@@ -314,12 +313,12 @@ while True:
                 break
             #Reboot
             if reiniciar == ("b"):
-                print ("Se reiniciara en breve...")
+                print ("Se te mostrara el menu de incio a continuación...")
                 time.sleep (5)
             else:
                 break
     else:
-        print = ("Sintaxt ERROR", color == (red))
+        print = ("Sintaxt ERROR / ERROR de Sintaxis")
     break
 #End
 print ("Sword Lite")
