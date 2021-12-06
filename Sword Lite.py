@@ -7,11 +7,17 @@ print ("        SWORD LITE      ")
 print ("  Powered By: Phyton 3")
 print ("      ©Isaac Hernán")
 #characters
-characters4 = ("asdfghjklñqwertyuiopzxcvbnm")
-characters3 = ("QWERTYUIOPASDFGHJKLÑZXCVBNM")
+characters10 = ("QWERTYUIOPASDFGHJKLZXCVBNM#@¡!+-_.,=&%$/*:;ªº")
+characters9 = ("#@¡!+-_.,=&%$/*:;ªºasdfghjklqwertyuiopzxcvbnm")
+characters8 = ("#@¡!+-_.,=&%$/*:;ªº1234567890")
+characters7 = ("QWERTYUIOPASDFGHJKLZXCVBNM1234567890")
+characters6 = ("asdfghjklqwertyuiopzxcvbnm1234567890")
+characters5 = ("asdfghjklñqwertyuiopzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM")
+characters4 = ("asdfghjklqwertyuiopzxcvbnm")
+characters3 = ("QWERTYUIOPASDFGHJKLZXCVBNM")
 characters2 = ("1234567890")
 characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
-unificado = ("asdfghjklñqwertyuiopzxcvbnmQWERTYUIOPASDFGHJKLÑZXCVBNM1234567890#@¡!+-_.,=&%$/*:;ªº")
+unificado = ("asdfghjklñqwertyuiopzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890#@¡!+-_.,=&%$/*:;ªº")
 #Language
 time.sleep (2)
 print ("a. English")
@@ -300,8 +306,128 @@ while True:
                             print ("Contraseña:")
                             print (contraseña)
                     if creatormenu == ("b"):
-                        print ("Esta herramienta no se encuentra disponible, Lo sentimos.")
-                        time.sleep (20)
+                        print ("A.Solo letras")
+                        print ("B.Solo Mayusculas")
+                        print ("C.Mayusculas y letras")
+                        print ("D.Letras y Numeros")
+                        print ("E.Mayusculas y Números")
+                        print ("F.Solo Caracteres especiales")
+                        print ("G.Letras y Caracteres")
+                        print ("H.Mayusculas y Caracteres")
+                        print ("I.Numeros y Caracteres")
+                        print ("J.Salir")
+                        print ("PARA USAR SOLO NUMEROS USA LA OPCION PIN")
+                        avanzado = input ("")
+                        if avanzado == ("a"):
+                           for p in range(cantidad):
+                            contraseña = ""
+                            for c in range(longitud):
+                                contraseña += random.choice(characters4)
+                            print ("--------")
+                            #Delivery
+                            print ("----------")
+                            print ("Nombre:")
+                            print (nombre)
+                            print ("Contraseña:")
+                            print (contraseña)
+                        if avanzado == ("b"):
+                            for p in range(cantidad):
+                             contraseña = ""
+                             for c in range(longitud):
+                                 contraseña += random.choice(characters3)
+                            print ("--------")
+                            #Delivery
+                            print ("----------")
+                            print ("Nombre:")
+                            print (nombre)
+                            print ("Contraseña:")
+                            print (contraseña)
+                        if avanzado == ("c"):
+                            for p in range(cantidad):
+                             contraseña = ""
+                             for c in range(longitud):
+                                 contraseña += random.choice(characters5)
+                            print ("--------")
+                            #Delivery
+                            print ("----------")
+                            print ("Nombre:")
+                            print (nombre)
+                            print ("Contraseña:")
+                            print (contraseña)
+                        if avanzado == ("d"):
+                            for p in range(cantidad):
+                             contraseña = ""
+                             for c in range(longitud):
+                                 contraseña += random.choice(characters6)
+                            print ("--------")
+                            #Delivery
+                            print ("----------")
+                            print ("Nombre:")
+                            print (nombre)
+                            print ("Contraseña:")
+                            print (contraseña)
+                        if avanzado == ("e"):
+                            for p in range(cantidad):
+                             contraseña = ""
+                             for c in range(longitud):
+                                 contraseña += random.choice(characters7)
+                            print ("--------")
+                            #Delivery
+                            print ("----------")
+                            print ("Nombre:")
+                            print (nombre)
+                            print ("Contraseña:")
+                            print (contraseña)
+                        if avanzado == ("f"):
+                            for p in range(cantidad):
+                             contraseña = ""
+                             for c in range(longitud):
+                                 contraseña += random.choice(characters1)
+                            print ("--------")
+                            #Delivery
+                            print ("----------")
+                            print ("Nombre:")
+                            print (nombre)
+                            print ("Contraseña:")
+                            print (contraseña)
+                        if avanzado == ("g"):
+                            for p in range(cantidad):
+                             contraseña = ""
+                             for c in range(longitud):
+                                 contraseña += random.choice(characters9)
+                            print ("--------")
+                            #Delivery
+                            print ("----------")
+                            print ("Nombre:")
+                            print (nombre)
+                            print ("Contraseña:")
+                            print (contraseña)
+                        if avanzado == ("i"):
+                            for p in range(cantidad):
+                             contraseña = ""
+                             for c in range(longitud):
+                                 contraseña += random.choice(characters8)
+                            print ("--------")
+                            #Delivery
+                            print ("----------")
+                            print ("Nombre:")
+                            print (nombre)
+                            print ("Contraseña:")
+                            print (contraseña)
+                        if avanzado == ("h"):
+                            for p in range(cantidad):
+                             for c in range(longitud):
+                                 contraseña += random.choice(characters10)
+                            print ("--------")
+                            #Delivery
+                            print ("----------")
+                            print ("Nombre:")
+                            print (nombre)
+                            print ("Contraseña:")
+                            print (contraseña)
+                        if avanzado == ("j"):
+                            break
+                            
             #Start / End
             print ("                                                                                                                                                                                                             ")
             print ("Indique A para apagar el programa, de lo contrario indique B.")
