@@ -2,7 +2,6 @@
 import random 
 import time
 import webbrowser
-from tkinter import messagebox
 print ("        SWORD LITE      ")
 print ("  Powered By: Phyton 3")
 print ("      ©Isaac Hernán")

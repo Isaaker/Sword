@@ -6,10 +6,18 @@ Below you will find a list of errors that may occur in the program:
 
 Below I leave at your disposal a list in which I tell you in which IDE and OS I have tested the program.
 - Sword Lite: 
-* Raspberry Pi 400 with Thoony Phyton IDE.
-* iMac Mini End of 2012 with Phyton IDLE 3.9
+* Raspberry Pi 400 with Thoony Pythton IDE.
+* iMac Mini End of 2012 with Python Oficial IDLE 3.9
+* MacBook Pro (2021) M1 Pro with Python Oficial IDLE 1.10
 - Sword Multilanguage:
 NO TESTING
 
 
-We haven't found any more bugs yet, if you find a bug you can notify us at my e-mail: hernan.marti.isaac@gmail.com
+-We haven't found any more bugs yet, if you find a bug you can notify us at my e-mail: hernan.marti.isaac@gmail.com
+-O you can fixes it in the GitHub Repository:
+https://github.com/Isaaker/Sword
+
+
+Also you can make an Issue, in the Section Issues on the Sword Repository:
+https://github.com/Isaaker/Sword/issues
+
