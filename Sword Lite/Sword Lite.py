@@ -18,30 +18,35 @@ characters2 = ("1234567890")
 characters1 = ("#@¡!+-_.,=&%$/*:;ªº")
 unificado = ("asdfghjklñqwertyuiopzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890#@¡!+-_.,=&%$/*:;ªº")
 #Language
-time.sleep (2)
-print ("a. English")
-print ("b. Español")
 while True:
+    time.sleep (2)
+    print ("A. English")
+    print ("B. Español")
+    print ("C. Exit/Salir")
     language = input ("Choose a language / Elije un Idioma ")
     if language == ("a"):
         print ("You have chosen English")
+        print ("                                                      ")
+        nombre = input ("Your name please ")
+        if nombre == ("Sword"):
+            print ("Hey, that's my name too!!!")
+        if nombre == ("Isaaker"):
+            print ("Hello Father")
+        else:
+            print ("Welcome:")
+            print (nombre)
         while True:
-            #Name
-            print ("                                                      ")
-            nombre = input ("Your name please ")
-            if nombre == ("Sword"):
-                print ("Hey, that's my name too!!!")
-            else:
-                print ("Welcome:")
-                print (nombre)
-                #Start Menu opciones
+            #Start Menu opciones
+            print (" ")
             print ("A.What are you?")
             print ("B.Version")
             print ("C.Credits")
             print ("D.Create password")
             print ("E.Report an error o make a issue")
+            print ("F.Exit")
             print ("?.Help")
             userName = input ("Choose an option ")
+            print (" ")
             #¿Que eres?
             if userName == ("?"):
                 print ("Welcome to the Help Portal")
@@ -277,42 +282,34 @@ while True:
                     print (nombre)
                     print ("your password(s) are listed above")
                     time.sleep(4)
-                    print ("Thank you for using our program")
-                    time.sleep(4)
                     #Start / End
-            print ("                                                                                                                                                                                                             ")
-            reiniciar = input ("Choose: A.Exit o B.Go to Home ")
-            #Exit
-            if reiniciar == ("a"):
-                confirmar = input ("¿Are you sure? [Yes/No]")
-                if confirmar == ("Yes"):
-                    print ("See you later")
-                    break
-                if confirmar == ("No"):
-                    print ("You are being redirected to home...")    
-            #Reboot
-            if reiniciar == ("b"):
-                print ("You are being redirected to home...")
+            if userName == ("f"):
+                print ("Thank you for using our program")
+                break
     if language == ("b"):
         #Español
         print ("Has elejido Español")
+        print ("                                                      ")
+        nombre = input ("Su nombre por favor ")
+        if nombre == ("Sword"):
+            print ("¡¡¡Oye pues yo tambien me llamo asi!!!")
+        if nombre == ("Isaaker"):
+            print ("Hola padre")
+        else:
+            print ("Bienvenid@a:")
+            print (nombre)
         while True:
-            #Name
-            print ("                                                      ")
-            nombre = input ("Su nombre por favor ")
-            if nombre == ("Sword"):
-                print ("¡¡¡Oye pues yo tambien me llamo asi!!!")
-            else:
-                print ("Bienvenid@a:")
-                print (nombre)
-                #Start Menu opciones
+            #Start Menu opciones
+            print (" ")
             print ("A.¿Que eres?")
             print ("B.Version")
             print ("C.Creditos")
             print ("D.Crear contraseña")
-            print ("E.Informar de un fallo o crear una sugerencia")     
+            print ("E.Informar de un fallo o crear una sugerencia")
+            print ("F.Salir")
             print ("?(Ayuda)")
             userName = input ("Elije una opcion ")
+            print (" ")
             #¿Que eres?
             if userName == ("?"):
                 print ("Hola Bienvenido a el portal de Ayuda")
@@ -545,23 +542,10 @@ while True:
                             print (contraseña)
                         if avanzado == ("j"):
                             break
-                            
-            #Start / End
-            print ("                                                                                                                                                                                                             ")
-            reiniciar = input ("Elija: A.Salir o B.Volver al inicio ")
-            #Exit
-            if reiniciar == ("a"):
-                confirmar = input ("¿Esta Seguro? [Si/No]")
-                if confirmar == ("Si"):
-                    print ("Hasta luego")
-                    break
-                if confirmar == ("No"):
-                    print ("Se te mostrara el menu de incio a continuación...")    
-            #Reboot
-            if reiniciar == ("b"):
-                print ("Se te mostrara el menu de incio a continuación...")
-    else:
-        print = ("Sintaxt ERROR / ERROR de Sintaxis")
-    break
+            if userName == ("f"):
+                print ("Gracias por usar nuestro programa")
+                break
+    if language == ("c"):
+        break
 #End
 print ("Sword Lite")
