@@ -10,3 +10,12 @@ Thank you very much.
 Sword versions:
 - Sword Lite: Sword Lite will have two languages integrated in its code, Spanish and English. And unlike Sword Multilanguage it will not work with language files.-Available-
 - Sword Multilanguage: Sword Multilanguage will work through gettext and the use of .pot and .po language files.-Not available-
+
+If you find a bug you can notify us at my e-mail: hernan.marti.isaac@gmail.com .
+
+O you can fixes it in the GitHub Repository:
+https://github.com/Isaaker/Sword
+
+
+Also you can make an Issue, in the Section Issues on the Sword Repository:
+https://github.com/Isaaker/Sword/issues
