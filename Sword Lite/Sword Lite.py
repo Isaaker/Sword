@@ -39,7 +39,7 @@ while True:
             print ("B.Version")
             print ("C.Credits")
             print ("D.Create password")
-            print ("E.Report an error")
+            print ("E.Report an error o make a issue")
             print ("?.Help")
             userName = input ("Choose an option ")
             #¿Que eres?
@@ -88,7 +88,7 @@ while True:
                 print ("You are currently in the Lite version of Sword")
             #ERRORES
             if userName == "e":
-                print ("To report an ERROR you can do it in the following email electronico:hernan.marti.isaac@gmail.com or in the GitHub account:Isaaker. Thanks in advance for your collaboration")
+                webbrowser.open("https://github.com/Isaaker/Sword/issues/new")
             #Creditos    
             if userName == "c":
                 print ("Author:Isaaker, Powered by: Phyton 3, Stored at: GitHub, Under License: Creative Commons Attribution-ShareAlike 4.0 International Public License.")
@@ -279,20 +279,20 @@ while True:
                     time.sleep(4)
                     print ("Thank you for using our program")
                     time.sleep(4)
-            #Start / End
+                    #Start / End
             print ("                                                                                                                                                                                                             ")
-            print ("Indicate A to turn off the program, otherwise indicate B.")
-            reiniciar = input ("Choose: A.Exit or B.Continue ")
+            reiniciar = input ("Choose: A.Exit o B.Go to Home ")
             #Exit
             if reiniciar == ("a"):
-                print ("See you later")
-                break
+                confirmar = input ("¿Are you sure? [Yes/No]")
+                if confirmar == ("Yes"):
+                    print ("See you later")
+                    break
+                if confirmar == ("No"):
+                    print ("You are being redirected to home...")    
             #Reboot
             if reiniciar == ("b"):
-                print ("you are being redirected...")
-                time.sleep (5)
-            else:
-                break
+                print ("You are being redirected to home...")
     if language == ("b"):
         #Español
         print ("Has elejido Español")
@@ -310,7 +310,7 @@ while True:
             print ("B.Version")
             print ("C.Creditos")
             print ("D.Crear contraseña")
-            print ("E.Informar de un fallo")     
+            print ("E.Informar de un fallo o crear una sugerencia")     
             print ("?(Ayuda)")
             userName = input ("Elije una opcion ")
             #¿Que eres?
@@ -363,7 +363,7 @@ while True:
                 print ("Actualmente se encuentra en la version Lite de Sword")
             #ERRORES
             if userName == "e":
-                print ("Para informar de un ERROR puede hacerlo en el siguiente correo electronico:hernan.marti.isaac@gmail.com o en la cuenta  de GitHub:Isaaker.Gracias de antemano por tu colaboracion")
+                webbrowser.open("https://github.com/Isaaker/Sword/issues/new")
             #Creditos    
             if userName == "c":
                 print ("Autor: Isaac Hernán, Powered: Phyton 3, Almacenado en: GitHub, Bajo licencia: Creative Commons Attribution-ShareAlike 4.0 International Public License.")
@@ -548,19 +548,18 @@ while True:
                             
             #Start / End
             print ("                                                                                                                                                                                                             ")
-            print ("Indique A para apagar el programa, de lo contrario indique B.")
-
-            reiniciar = input ("Elija: A.Salir o B.Continuar ")
+            reiniciar = input ("Elija: A.Salir o B.Volver al inicio ")
             #Exit
             if reiniciar == ("a"):
-                print ("Hasta luego")
-                break
+                confirmar = input ("¿Esta Seguro? [Si/No]")
+                if confirmar == ("Si"):
+                    print ("Hasta luego")
+                    break
+                if confirmar == ("No"):
+                    print ("Se te mostrara el menu de incio a continuación...")    
             #Reboot
             if reiniciar == ("b"):
                 print ("Se te mostrara el menu de incio a continuación...")
-                time.sleep (5)
-            else:
-                break
     else:
         print = ("Sintaxt ERROR / ERROR de Sintaxis")
     break
