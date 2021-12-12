@@ -284,6 +284,7 @@ while True:
                     #Start / End
             if userName == ("f"):
                 print ("Thank you for using our program")
+                print ("Sword Lite")
                 exit()
     if language == ("b"):
         #Español
@@ -543,6 +544,6 @@ while True:
                             break
             if userName == ("f"):
                 print ("Gracias por usar nuestro programa")
+                print ("Sword Lite")
                 exit()
 #End
-print ("Sword Lite")
