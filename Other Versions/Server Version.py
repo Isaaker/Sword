@@ -252,6 +252,5 @@ while True:
         break
 #End
 print ("Sword Lite")
-time.sleep(2000)
 exit()
 
