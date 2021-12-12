@@ -22,7 +22,6 @@ while True:
     time.sleep (2)
     print ("A. English")
     print ("B. Español")
-    print ("C. Exit/Salir")
     language = input ("Choose a language / Elije un Idioma ")
     if language == ("a"):
         print ("You have chosen English")
@@ -285,7 +284,7 @@ while True:
                     #Start / End
             if userName == ("f"):
                 print ("Thank you for using our program")
-                break
+                exit()
     if language == ("b"):
         #Español
         print ("Has elejido Español")
@@ -544,8 +543,6 @@ while True:
                             break
             if userName == ("f"):
                 print ("Gracias por usar nuestro programa")
-                break
-    if language == ("c"):
-        break
+                exit()
 #End
 print ("Sword Lite")
