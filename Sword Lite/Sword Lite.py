@@ -5,8 +5,7 @@ import webbrowser
 import re
 chek = ("")
 def despassword():
-    print ("Despassword machine")
-    print ("The password dictionary only work with english passwords")
+    print ("Cheking your password...")
     #Dictionary array
     dictionary1 = ("1234")
     dictionary2 = ("12345")
