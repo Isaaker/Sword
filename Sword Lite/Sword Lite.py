@@ -3,6 +3,7 @@ import random
 import time
 import webbrowser
 import re
+import getpass
 chek = ("")
 def despassword():
     #Dictionary array
@@ -186,9 +187,17 @@ def viewdictionary_es():
     else:
         print ("Tu contraseña no esta en el diccionario de contraseñas")
 #Program---
-print ("        SWORD LITE      ")
-print ("  Powered By: Phyton 3")
-print ("      ©Isaac Hernán")
+print (" -------                                ----------    --------   --------")
+print (" |         \                        /   |        |    |      |   |        |")
+print (" |          \                      /    |        |    |      |   |        |")
+print (" |           \                    /     |        |    |      |   |        |")
+print (" -------      \        /\        /      |        |    --------   |        |")
+print ("       |       \      /  \      /       |        |    |\         |        |")
+print ("       |        \    /    \    /        |        |    | \        |        |")
+print ("       |         \  /      \  /         |        |    |  \       |        /")
+print (" -------          \/        \/          ----------    |   \      ---------")
+print ("                              Powered By: Phyton 3")
+print ("                                © Isaac Hernán ©")
 #characters
 characters10 = ("QWERTYUIOPASDFGHJKLZXCVBNM#@¡!+-_.,=&%$/*:;ªº")
 characters9 = ("#@¡!+-_.,=&%$/*:;ªºasdfghjklqwertyuiopzxcvbnm")
