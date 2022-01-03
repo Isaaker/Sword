@@ -2,6 +2,100 @@
 import random 
 import time
 import webbrowser
+import re
+chek = ("")
+def despassword():
+    print ("Despassword machine")
+    print ("The password dictionary only work with english passwords")
+    #Dictionary array
+    dictionary1 = ("1234")
+    dictionary2 = ("12345")
+    dictionary3 = ("qwertyuiop")
+    dictionary4 = ("password")
+    dictionary5 = ("123456")
+    dictionary6 = ("1234567")
+    dictionary7 = ("12345678")
+    dictionary8 = ("123456789")
+    dictionary9 = ("1234567890")
+    dictionary10 = ("continue")
+    dictionary11 = ("i love you")
+    dictionary12 = ("superman")
+    dictionary13 = ("fornite")
+    dictionary14 = ("pokemon")
+    dictionary15 = ("laptop")
+    dictionary16 = ("keyboard")
+    dictionary17 = ("acount")
+    dictionary18 = ("batman")
+    dictionary19 = ("mypassword")
+    dictionary20 = ("apple")
+    dictionary21 = ("dog")
+    dictionary22 = ("      ")
+    dictionary23 = ("pen")
+    password = input("Enter the password to chek: ")
+    if password == (dictionary1):
+        chek = ("notcorrect")
+    if password == (dictionary2):
+        chek = ("notcorrect")
+    if password == (dictionary3):
+        chek = ("notcorrect")
+    if password == (dictionary4):
+        chek = ("notcorrect")
+    if password == (dictionary5):
+        chek = ("notcorrect")
+    if password == (dictionary6):
+        chek = ("notcorrect")
+    if password == (dictionary7):
+        chek = ("notcorrect")
+    if password == (dictionary8):
+        chek = ("notcorrect")
+    if password == (dictionary9):
+        chek = ("notcorrect")
+    if password == (dictionary10):
+        chek = ("notcorrect")
+    if password == (dictionary11):
+        chek = ("notcorrect")
+    if password == (dictionary12):
+        chek = ("notcorrect")
+    if password == (dictionary13):
+        chek = ("notcorrect")
+    if password == (dictionary14):
+        chek = ("notcorrect")
+    if password == (dictionary15):
+        chek = ("notcorrect")
+    if password == (dictionary16):
+        chek = ("notcorrect")
+    if password == (dictionary17):
+        chek = ("notcorrect")
+    if password == (dictionary18):
+        chek = ("notcorrect")
+    if password == (dictionary19):
+        chek = ("notcorrect")
+    if password == (dictionary20):
+        chek = ("notcorrect")
+    if password == (dictionary21):
+        chek = ("notcorrect")
+    if password == (dictionary22):
+        chek = ("notcorrect")
+    if password == (dictionary23):
+        chek = ("notcorrect")
+    else:
+        if len(password) < 8:
+                print("Make sure your password is at lest 8 letters")
+                viewdictionary()
+        elif re.search('[0-9]',password) is None:
+                print("Make sure your password has a capital letter in it")
+                viewdictionary()
+        elif re.search('[A-Z]',password) is None:
+                print("Make sure your password has a capital letter in it")
+                viewdictionary()
+        else:
+            print ("Your password has passed character checks")
+            viewdictionary()
+def viewdictionary():
+    if chek == ("notcorrect"):
+        print ("Make sure your password is in the passwords dictionary")
+    else:
+        print ("Your password is not in the password dictionary")
 print ("        SWORD LITE      ")
 print ("  Powered By: Phyton 3")
 print ("      ©Isaac Hernán")
@@ -42,7 +136,8 @@ while True:
             print ("C.Credits")
             print ("D.Create password")
             print ("E.Report an error o make a issue")
-            print ("F.Exit")
+            print ("F.Check my password")
+            print ("G.Exit")
             print ("?.Help")
             userName = input ("Choose an option ")
             print (" ")
@@ -283,6 +378,8 @@ while True:
                     time.sleep(4)
                     #Start / End
             if userName == ("f"):
+                despassword()
+            if userName == ("g"):
                 print ("Thank you for using our program")
                 print ("Sword Lite")
                 exit()
@@ -306,7 +403,8 @@ while True:
             print ("C.Creditos")
             print ("D.Crear contraseña")
             print ("E.Informar de un fallo o crear una sugerencia")
-            print ("F.Salir")
+            print ("F.Comprobar mi contraseña")
+            print ("G.Salir")
             print ("?(Ayuda)")
             userName = input ("Elije una opcion ")
             print (" ")
@@ -543,6 +641,8 @@ while True:
                         if avanzado == ("j"):
                             break
             if userName == ("f"):
+                print ("No disponible actualmente")
+            if userName == ("g"):
                 print ("Gracias por usar nuestro programa")
                 print ("Sword Lite")
                 exit()
