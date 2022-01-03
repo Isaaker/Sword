@@ -5,7 +5,6 @@ import webbrowser
 import re
 chek = ("")
 def despassword():
-    print ("Cheking your password...")
     #Dictionary array
     dictionary1 = ("1234")
     dictionary2 = ("12345")
@@ -95,6 +94,98 @@ def viewdictionary():
         print ("Make sure your password is in the passwords dictionary")
     else:
         print ("Your password is not in the password dictionary")
+#Spanish Module
+def despassword_es():
+    #Dictionary array
+    dictionary1 = ("1234")
+    dictionary2 = ("12345")
+    dictionary3 = ("qwertyuiop")
+    dictionary4 = ("contraseña")
+    dictionary5 = ("123456")
+    dictionary6 = ("1234567")
+    dictionary7 = ("12345678")
+    dictionary8 = ("123456789")
+    dictionary9 = ("1234567890")
+    dictionary10 = ("continuar")
+    dictionary11 = ("te quiero")
+    dictionary12 = ("superman")
+    dictionary13 = ("fornite")
+    dictionary14 = ("pokemon")
+    dictionary15 = ("ordenador")
+    dictionary16 = ("teclado")
+    dictionary17 = ("cuenta")
+    dictionary18 = ("batman")
+    dictionary19 = ("micontraseña")
+    dictionary20 = ("apple")
+    dictionary21 = ("perro")
+    dictionary22 = ("      ")
+    dictionary23 = ("lapiz")
+    password = input("Introduce la contraseña a revisar: ")
+    if password == (dictionary1):
+        chek = ("notcorrect")
+    if password == (dictionary2):
+        chek = ("notcorrect")
+    if password == (dictionary3):
+        chek = ("notcorrect")
+    if password == (dictionary4):
+        chek = ("notcorrect")
+    if password == (dictionary5):
+        chek = ("notcorrect")
+    if password == (dictionary6):
+        chek = ("notcorrect")
+    if password == (dictionary7):
+        chek = ("notcorrect")
+    if password == (dictionary8):
+        chek = ("notcorrect")
+    if password == (dictionary9):
+        chek = ("notcorrect")
+    if password == (dictionary10):
+        chek = ("notcorrect")
+    if password == (dictionary11):
+        chek = ("notcorrect")
+    if password == (dictionary12):
+        chek = ("notcorrect")
+    if password == (dictionary13):
+        chek = ("notcorrect")
+    if password == (dictionary14):
+        chek = ("notcorrect")
+    if password == (dictionary15):
+        chek = ("notcorrect")
+    if password == (dictionary16):
+        chek = ("notcorrect")
+    if password == (dictionary17):
+        chek = ("notcorrect")
+    if password == (dictionary18):
+        chek = ("notcorrect")
+    if password == (dictionary19):
+        chek = ("notcorrect")
+    if password == (dictionary20):
+        chek = ("notcorrect")
+    if password == (dictionary21):
+        chek = ("notcorrect")
+    if password == (dictionary22):
+        chek = ("notcorrect")
+    if password == (dictionary23):
+        chek = ("notcorrect")
+    else:
+        if len(password) < 8:
+                print("Haz mas segura tu contraseña añadiendo mas caracteres o numero, tiene que ser superior a 8 caracteres")
+                viewdictionary()
+        elif re.search('[0-9]',password) is None:
+                print("Para que tu contraseña sea mas segura añade numeros")
+                viewdictionary()
+        elif re.search('[A-Z]',password) is None:
+                print("Para que tu contraseña sea mas segura añade letras matusculas")
+                viewdictionary()
+        else:
+            print ("Tu contraseña ha pasado los controles de caracteres")
+            viewdictionary()
+def viewdictionary_es():
+    if chek == ("notcorrect"):
+        print ("Crea una contraseña mas segura, esta aparece en el diccionario")
+    else:
+        print ("Tu contraseña no esta en el diccionario de contraseñas")
+#Program---
 print ("        SWORD LITE      ")
 print ("  Powered By: Phyton 3")
 print ("      ©Isaac Hernán")
@@ -226,6 +317,26 @@ while True:
                 if tipo ==  ("b"):
                     #Length
                     longitud = input ("Password length, please? ")
+                    if longitud == ("8"):
+                        print ("Creating a password of less than 8 characters is dangerous")
+                    if longitud == ("7"):
+                        print ("Creating a password of less than 8 characters is dangerous")
+                    if longitud == ("6"):
+                        print ("Creating a password of less than 8 characters is dangerous")
+                    if longitud == ("5"):
+                        print ("Creating a password of less than 8 characters is dangerous")
+                    if longitud == ("4"):
+                        print ("Creating a password of less than 8 characters is dangerous")
+                    if longitud == ("3"):
+                        print ("Creating a password of less than 8 characters is dangerous")
+                    if longitud == ("2"):
+                        print ("Creating a password of less than 8 characters is dangerous")
+                    if longitud == ("1"):
+                        print ("Creating a password of less than 8 characters is dangerous")
+                    if longitud == ("0"):
+                        print ("Creating a password of less than 8 characters is dangerous")
+                    else:
+                        print (" ")
                     #Quantity
                     cantidad = input ("How many passwords do you want? ")
                     cantidad = int(cantidad)
@@ -497,6 +608,27 @@ while True:
                 if tipo ==  ("b"):
                     #Length
                     longitud = input ("¿Longitud de la contraseña? ")
+                    if longitud == ("8"):
+                        print ("Crear una contraseña inferior a 8 caracteres es peligroso")
+                    if longitud == ("7"):
+                        print ("Crear una contraseña inferior a 8 caracteres es peligroso")
+                    if longitud == ("6"):
+                        print ("Crear una contraseña inferior a 8 caracteres es peligroso")
+                    if longitud == ("5"):
+                        print ("Crear una contraseña inferior a 8 caracteres es peligroso")
+                    if longitud == ("4"):
+                        print ("Crear una contraseña inferior a 8 caracteres es peligroso")
+                    if longitud == ("3"):
+                        print ("Crear una contraseña inferior a 8 caracteres es peligroso")
+                    if longitud == ("2"):
+                        print ("Crear una contraseña inferior a 8 caracteres es peligroso")
+                    if longitud == ("1"):
+                        print ("Crear una contraseña inferior a 8 caracteres es peligroso")
+                    if longitud == ("0"):
+                        print ("Crear una contraseña inferior a 8 caracteres es peligroso")
+                    else:
+                        print (" ")
+                    #Quantity
                     #Quantity
                     cantidad = input ("¿Cuantas contraseñas necesitas? ")
                     cantidad = int(cantidad)
@@ -640,7 +772,7 @@ while True:
                         if avanzado == ("j"):
                             break
             if userName == ("f"):
-                print ("No disponible actualmente")
+                despassword_es()
             if userName == ("g"):
                 print ("Gracias por usar nuestro programa")
                 print ("Sword Lite")

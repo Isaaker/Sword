@@ -1,21 +1,41 @@
-Sword
+#Sword
+##About the project
+The project begin in 2021, and the objetive is create a secure application to create password  with the idea of not collecting data from passwords.
+##Funcions
+Sword Lite have some Functions:
+1. Create secure password
+2. Advance settings to create a password
+3. And a password chek
+## Installation
+### With graphical interface
 
-Hello, my name is Isaaker and this is my Sword software. This software is intended to generate passwords and PINs, sadly it is only available in Spanish. But in the future I will create a development branch to translate it to English, being something like "Phyton 1.3_ English.py" and "Phyton 1.3_Español.py". For those who have doubts you can contact me at hernan.marti.isaac@gmail.com.
-I also leave at your disposal the license that is very important to read it. And a user's manual that we will also have to translate.
-Thank you very much.
+1. Download the Phyton IDE: https://www.python.org/downloads/
+2. Download the software:
+MacOS, Linux & Windows
+Option 1: Download the .zip in the Code Button.
+Option 2: Clone the repositorie (with GitHub Desktop)from: https://github.com/Isaaker/Sword.git
+Option 3: Clone the repositorie (whith git): `git clone https://github.com/Isaaker/Sword.git`
 
+### Command line
+1. Check if you have python installed:
+`python --version`
+2. If version is Python 3 or later go to the point 3. The program requires phyton 3, to update or install visit: https://www.python.org
+3. Download the software:
+MacOS, Linux & Windows
+Option 1: Download the .zip in the Code Button.
+Option 2: Clone the repositorie (with GitHub Desktop)from: https://github.com/Isaaker/Sword.git
+Option 3: Clone the repositorie (whith git): `git clone https://github.com/Isaaker/Sword.git`
 
-![Imagen 2-7-21 a las 11 33](https://user-images.githubusercontent.com/77550577/124254773-b0b92d80-db29-11eb-9a58-c2b790fbea85.jpeg)
+## ¿How to use the software?
+### With graphical interface
+1. Open the IDE and press command + O or Ctrl. + O
+2. Find the directory where do you download the software or where do you have the software. And press open or similar.
+3. Now you have a screen with two windows a Shell and a window whit the code press the window whith the code and use Funcion 5.
 
-Sword versions:
-- Sword Lite: Sword Lite will have two languages integrated in its code, Spanish and English. And unlike Sword Multilanguage it will not work with language files.-Available-
-- Sword Multilanguage: Sword Multilanguage will work through gettext and the use of .pot and .po language files.-Not available-
+###Command line (No graphical interface)
+1. Go to the directory where do you have the software (Sword)
+2. Use `cd Other versions`
+3. Use `python3 Server Version.py`. (Version for no graphical interface)
 
-If you find a bug you can notify us at my e-mail: hernan.marti.isaac@gmail.com .
-
-O you can fixes it in the GitHub Repository:
-https://github.com/Isaaker/Sword
-
-
-Also you can make an Issue, in the Section Issues on the Sword Repository:
-https://github.com/Isaaker/Sword/issues
+##Colaboration
+You can colaborate in the project developing it o making issues in the section issues in GitHub.
