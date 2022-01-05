@@ -1,7 +1,6 @@
 #import
 import random 
 import time
-import webbrowser
 import re
 import getpass
 chek = ("")

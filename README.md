@@ -1,7 +1,11 @@
 #Sword
+
 ##About the project
+
 The project begin in 2021, and the objetive is create a secure application to create password  with the idea of not collecting data from passwords.
+
 ##Funcions
+
 Sword Lite have some Functions:
 1. Create secure password
 2. Advance settings to create a password
