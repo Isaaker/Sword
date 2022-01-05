@@ -1,18 +1,13 @@
-#Sword
-
-##About the project
-
+## Sword
+## About the project
 The project begin in 2021, and the objetive is create a secure application to create password  with the idea of not collecting data from passwords.
-
-##Funcions
-
+## Funcions
 Sword Lite have some Functions:
 1. Create secure password
 2. Advance settings to create a password
 3. And a password chek
 ## Installation
 ### With graphical interface
-
 1. Download the Phyton IDE: https://www.python.org/downloads/
 2. Download the software:
 MacOS, Linux & Windows
