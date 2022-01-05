@@ -31,10 +31,10 @@ Option 3: Clone the repositorie (whith git): `git clone https://github.com/Isaak
 2. Find the directory where do you download the software or where do you have the software. And press open or similar.
 3. Now you have a screen with two windows a Shell and a window whit the code press the window whith the code and use Funcion 5.
 
-###Command line (No graphical interface)
+### Command line (No graphical interface)
 1. Go to the directory where do you have the software (Sword)
 2. Use `cd Other versions`
 3. Use `python3 Server Version.py`. (Version for no graphical interface)
 
-##Colaboration
+## Colaboration
 You can colaborate in the project developing it o making issues in the section issues in GitHub.
