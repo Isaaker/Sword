@@ -2,9 +2,9 @@
 import random 
 import time
 import re
-import getpass
-chek = ("")
-def despassword():
+#Dictionary Module
+#English
+def despassword_en():
     #Dictionary array
     dictionary1 = ("1234")
     dictionary2 = ("12345")
@@ -29,72 +29,56 @@ def despassword():
     dictionary21 = ("dog")
     dictionary22 = ("      ")
     dictionary23 = ("pen")
-    password = input("Enter the password to chek: ")
+    password = input("Enter the password to find it in the dictionary: ")
     if password == (dictionary1):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary2):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary3):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary4):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary5):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary6):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary7):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary8):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary9):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary10):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary11):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary12):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary13):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary14):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary15):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary16):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary17):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary18):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary19):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary20):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary21):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary22):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     if password == (dictionary23):
-        chek = ("notcorrect")
+        print ("Your password is in the password dictionary make more secure it.")
     else:
-        if len(password) < 8:
-                print("Make sure your password is at lest 8 letters")
-                viewdictionary()
-        elif re.search('[0-9]',password) is None:
-                print("Make sure your password has a capital letter in it")
-                viewdictionary()
-        elif re.search('[A-Z]',password) is None:
-                print("Make sure your password has a capital letter in it")
-                viewdictionary()
-        else:
-            print ("Your password has passed character checks")
-            viewdictionary()
-def viewdictionary():
-    if chek == ("notcorrect"):
-        print ("Make sure your password is in the passwords dictionary")
-    else:
-        print ("Your password is not in the password dictionary")
-#Spanish Module
+        print ("Your password is not in the dictionary, now i check the characters")
+#Spanish
 def despassword_es():
     #Dictionary array
     dictionary1 = ("1234")
@@ -120,71 +104,79 @@ def despassword_es():
     dictionary21 = ("perro")
     dictionary22 = ("      ")
     dictionary23 = ("lapiz")
-    password = input("Introduce la contraseña a revisar: ")
+    password = input("Introduce la contraseña para buscarla en el diccionario de contraseñas: ")
     if password == (dictionary1):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary2):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary3):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary4):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary5):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary6):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary7):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary8):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary9):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary10):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary11):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary12):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary13):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary14):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary15):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary16):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary17):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary18):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary19):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary20):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary21):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary22):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     if password == (dictionary23):
-        chek = ("notcorrect")
+        print ("Haz mas segura tu contraseña, ¡Aparece en el diccionario de contraseñas!")
     else:
-        if len(password) < 8:
-                print("Haz mas segura tu contraseña añadiendo mas caracteres o numero, tiene que ser superior a 8 caracteres")
-                viewdictionary()
-        elif re.search('[0-9]',password) is None:
-                print("Para que tu contraseña sea mas segura añade numeros")
-                viewdictionary()
-        elif re.search('[A-Z]',password) is None:
-                print("Para que tu contraseña sea mas segura añade letras matusculas")
-                viewdictionary()
-        else:
-            print ("Tu contraseña ha pasado los controles de caracteres")
-            viewdictionary()
-def viewdictionary_es():
-    if chek == ("notcorrect"):
-        print ("Crea una contraseña mas segura, esta aparece en el diccionario")
+        print ("tu contraseña no aparece en el diccionario de contraseñas, vamos a revisar sus caracteres.")
+#Characters Module
+#English
+def characters_en():
+    password = input("Enter the password to chek her characters: ")
+    if len(password) < 8:
+        print("Make sure your password is at lest 8 letters")
+    elif re.search('[0-9]',password1) is None:
+        print("Make sure your password has a capital letter in it")
+    elif re.search('[A-Z]',password1) is None:
+        print("Make sure your password has a capital letter in it")
     else:
-        print ("Tu contraseña no esta en el diccionario de contraseñas")
+        print ("Your password has passed character checks")
+
+#Spanish
+def characters_es():
+    password = input("Introduce la contraseña para revisar sus caracteres: ")
+    if len(password) < 8:
+        print("Haz mas segura tu contraseña añadiendo mas caracteres o numero, tiene que ser superior a 8 caracteres")
+    elif re.search('[0-9]',password1) is None:
+        print("Para que tu contraseña sea mas segura añade numeros")
+    elif re.search('[A-Z]',password1) is None:
+        print("Para que tu contraseña sea mas segura añade letras matusculas")
+    else:
+        print ("Tu contraseña ha pasado los controles de caracteres")
 #Program---
 print (" -------                                ----------    --------   --------")
 print (" |         \                        /   |        |    |      |   |        |")
@@ -496,7 +488,8 @@ while True:
                     time.sleep(4)
                     #Start / End
             if userName == ("f"):
-                despassword()
+                despassword_en()
+                characters_en()
             if userName == ("g"):
                 print ("Thank you for using our program")
                 print ("Sword Lite")
@@ -781,6 +774,7 @@ while True:
                             break
             if userName == ("f"):
                 despassword_es()
+                characters_es()
             if userName == ("g"):
                 print ("Gracias por usar nuestro programa")
                 print ("Sword Lite")
