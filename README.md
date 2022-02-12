@@ -1,6 +1,8 @@
 ## Sword
 ## About the project
 The project begin in 2021, and the objetive is create a secure application to create password  with the idea of not collecting data from passwords.
+
+**The program is under license view the section license.**
 ## Funcions
 Sword Lite have some Functions:
 1. Create secure password
@@ -47,3 +49,8 @@ Uninstall the program and install the latest version. (Read the section Installt
 
 ## Colaboration
 You can colaborate in the project developing it o making issues in the section issues in GitHub.
+
+## License
+The code is under **Creative Commons Attribution-ShareAlike 4.0 International Public License**, view the license at: https://github.com/Isaaker/Sword/blob/main/LICENSE.txt
+
+![Image Error](Documentation/License-Image.jpeg)
