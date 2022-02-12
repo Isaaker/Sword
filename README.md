@@ -6,6 +6,7 @@ Sword Lite have some Functions:
 1. Create secure password
 2. Advance settings to create a password
 3. And a password chek
+
 ## Installation
 ### With graphical interface
 1. Download the Phyton IDE: https://www.python.org/downloads/
@@ -25,7 +26,15 @@ Option 1: Download the .zip in the Code Button.
 Option 2: Clone the repositorie (with GitHub Desktop)from: https://github.com/Isaaker/Sword.git
 Option 3: Clone the repositorie (whith git): `git clone https://github.com/Isaaker/Sword.git`
 
-## ¿How to use the software?
+## Update the program
+### Command line (No graphical interface)
+1. Go to the directory where do you have the software (Sword)
+2. Use `git pull` to update the program
+
+### With graphical interface
+Uninstall the program and install the latest version. (Read the section Installtion)
+
+## ¿How to use the program?
 ### With graphical interface
 1. Open the IDE and press command + O or Ctrl. + O
 2. Find the directory where do you download the software or where do you have the software. And press open or similar.
