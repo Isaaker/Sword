@@ -90,7 +90,7 @@ while True:
                     for p in range(cantidad):
                         contraseña = ""
                         for c in range(longitud):
-                            contraseña += random.choice(caracteres2)
+                            contraseña += random.choice(characters2)
                             #Delivery
                         print ("----------")
                         print ("Name:")
