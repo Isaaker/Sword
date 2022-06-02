@@ -2,6 +2,7 @@
 import random
 import time
 import re
+import webbrowser
 #Dictionary Module
 #English
 def despassword_en():
