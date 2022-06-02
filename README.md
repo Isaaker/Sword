@@ -1,5 +1,4 @@
 ## Sword
-
 ## Status
 
 [![Semgrep](https://github.com/Isaaker/Sword/actions/workflows/Semgrep.yml/badge.svg)](https://github.com/Isaaker/Sword/actions/workflows/Semgrep.yml)
