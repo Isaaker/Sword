@@ -160,9 +160,9 @@ def characters_en():
     password = input("Enter the password to chek her characters: ")
     if len(password) < 8:
         print("Make sure your password is at lest 8 letters")
-    elif re.search('[0-9]',password1) is None:
+    elif re.search('[0-9]',password) is None:
         print("Make sure your password has a capital letter in it")
-    elif re.search('[A-Z]',password1) is None:
+    elif re.search('[A-Z]',password) is None:
         print("Make sure your password has a capital letter in it")
     else:
         print ("Your password has passed character checks")
@@ -172,9 +172,9 @@ def characters_es():
     password = input("Introduce la contraseña para revisar sus caracteres: ")
     if len(password) < 8:
         print("Haz mas segura tu contraseña añadiendo mas caracteres o numero, tiene que ser superior a 8 caracteres")
-    elif re.search('[0-9]',password1) is None:
+    elif re.search('[0-9]',password) is None:
         print("Para que tu contraseña sea mas segura añade numeros")
-    elif re.search('[A-Z]',password1) is None:
+    elif re.search('[A-Z]',password) is None:
         print("Para que tu contraseña sea mas segura añade letras matusculas")
     else:
         print ("Tu contraseña ha pasado los controles de caracteres")
