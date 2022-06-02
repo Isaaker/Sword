@@ -1,6 +1,9 @@
 ## Sword
-##Status
+
+## Status
+
 [![Semgrep](https://github.com/Isaaker/Sword/actions/workflows/Semgrep.yml/badge.svg)](https://github.com/Isaaker/Sword/actions/workflows/Semgrep.yml)
+
 ## About the project
 The project begin in 2021, and the objetive is create a secure application to create password  with the idea of not collecting data from passwords.
 
