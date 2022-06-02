@@ -1,5 +1,5 @@
 #import
-import random 
+import random
 import time
 import re
 #Dictionary Module
